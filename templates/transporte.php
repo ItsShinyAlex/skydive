@@ -50,7 +50,10 @@
 
 </div>
 
+
+
 <?php 
+	include 'shiny-footer.php';
     get_footer();
 ?>
 
