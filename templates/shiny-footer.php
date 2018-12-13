@@ -1,6 +1,6 @@
 
 
-   <section id="contacto">
+   <section id="contacto-footer">
     <div class="container">
       <div class="flex">
           <div class="col">
@@ -47,7 +47,7 @@
               <div class="bigc col">
                   <p>
                       
-                        Horarios de atención
+                        Horarios de atención <br>
                         Lunes a Domingo: 8:00 a 19:00
                   </p>
               </div>
@@ -67,7 +67,7 @@
               <div class="bigc col">
                   <p>
                       
-                        Correo electrónico
+                        Correo electrónico <br>
                         contacto@paracaidismo.mx
                   </p>
               </div>
@@ -82,7 +82,7 @@
               <div class="bigc col">
                   <p>
                       
-                        Télefono y Whatsapp México
+                        Télefono y Whatsapp México <br>
                         55 4044 0422 y 55 7397 0829
                   </p>
               </div>
@@ -97,7 +97,7 @@
               <div class="bigc col">
                   <p>
                       
-                        Oficina en Cuernavaca
+                        Oficina en Cuernavaca <br>
                         01 777 171 5650
                   </p>
               </div>

@@ -1,3 +1,7 @@
+@orange: #f0682f;
+@navy: #1a365b;
+@l-gray: #ebebeb;
+
 @font-face {
     font-family: 'Akzidenz-Grotesk BQ';
     src: url('fonts/AkzidenzGroteskBQ-BoldExtIt.woff2') format('woff2'),
@@ -56,6 +60,66 @@
     }
    
 }
+
+
+
+
+
+
+////////////////////////// contacto footer ////////////////////////////////////
+
+
+    #contacto-footer{
+        
+        
+        padding: 110px;
+        
+        background: url(../img/footer/back-footer.jpg) center no-repeat;
+        background-size: cover;
+        background-color: @navy;
+        background-attachment: fixed;
+        
+        i{
+            color: yellow;
+        }
+        
+        .col{
+            padding: 20px 100px;
+            width: 50%;
+            
+            p{
+                font-family: 'Avenir';
+                color: white;
+                padding-right: 30%;
+            }
+            
+        }
+        
+        .smallc{
+            width: 5%;
+            padding: 0;
+        }
+        
+        .bigc{
+            padding: 0;
+            width: 94%;
+        }
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 // NECESSARY /////////////////////////////////////////////////////////////////////////
 //+x+x+x+x+x+x+x+x+x+x+x+x+x++x+x+x+x+x+x+x+x+x+x+x+x+x+x+x+x+x++x+x+x+x+x+x+x+x++x+x
@@ -785,12 +849,15 @@ h2{
     }
     
     .btn-new{
+        display: inline-block;
         font-family: 'Avenir';
         background-color: @gold;
         color: @navy;
         box-shadow: -5px 3px 3px @navy;
         padding: 12px 30px;
         font-size: 28px;
+        //white-space: pre-wrap;
+        text-align: center;
     }
     
     #atusalto{
@@ -897,6 +964,9 @@ h2{
         
         
     }
+    
+    
+
     
     
 

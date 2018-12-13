@@ -45,6 +45,33 @@
 .paquete .costo-sinr {
   padding-top: 20px;
 }
+#contacto-footer {
+  padding: 110px;
+  background: url(../img/footer/back-footer.jpg) center no-repeat;
+  background-size: cover;
+  background-color: #1a365b;
+  background-attachment: fixed;
+}
+#contacto-footer i {
+  color: yellow;
+}
+#contacto-footer .col {
+  padding: 20px 100px;
+  width: 50%;
+}
+#contacto-footer .col p {
+  font-family: 'Avenir';
+  color: white;
+  padding-right: 30%;
+}
+#contacto-footer .smallc {
+  width: 5%;
+  padding: 0;
+}
+#contacto-footer .bigc {
+  padding: 0;
+  width: 94%;
+}
 [data-accordion-element-content] {
   height: auto;
   overflow: hidden;
@@ -593,12 +620,14 @@ article.selected {
   margin-bottom: 45px;
 }
 #tornado-landing .btn-new {
+  display: inline-block;
   font-family: 'Avenir';
   background-color: #ffae00;
   color: #1a365b;
   box-shadow: -5px 3px 3px #1a365b;
   padding: 12px 30px;
   font-size: 28px;
+  text-align: center;
 }
 #tornado-landing #atusalto {
   background: url(../img/transporte/background1coche.jpg) center top no-repeat;
