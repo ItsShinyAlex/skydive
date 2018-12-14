@@ -108,8 +108,15 @@ h1, h2, h3, h4, h5, h6{
     border-radius: 5px;
     box-shadow: 1px 2px 3px rgba(0, 0, 0, 0.32);
 }
+
+.header-style-1.header-align-left .mk-grid .mk-header-nav-container{
+    padding-top: 15px;
+    font-family: 'AvenirLT-Medium' !important;
+}
+
 .mk-header-inner{
-    background-image: url(https://skydivemexico.mx/wp-content/uploads/2017/01/menu-6.png);
+    
+   /* background-image: url(https://skydivemexico.mx/wp-content/uploads/2017/01/menu-6.png);*/
     min-height: 130px;
     background-position: center top;
     background-repeat: no-repeat;
@@ -119,6 +126,7 @@ h1, h2, h3, h4, h5, h6{
     display: none;
     margin-top: -24px;
 }
+
 
 
 .mk-header-bg {
@@ -139,17 +147,24 @@ h1, h2, h3, h4, h5, h6{
 }
 /*Menu header*/
 .main-navigation-ul > li.menu-item > a.menu-item-link{
-    font-family: 'BigNoodleTitling';
-    font-size: 24px;
-    font-weight: normal !important;
+    font-family: 'AvenirLT-Medium' !important;
+    
+    font-weight: bold !important;
     padding-top: 28px;
-	padding-right: 18px !important;
-    padding-left: 18px !important;
+	padding-right: 1px !important;
+    padding-left: 1px !important;
+    width: 100%;
+    color: black !important;
+    
+}
+
+ .menu-hover-style-5 .main-navigation-ul>li{
+    width: 110px;
 }
 
 .main-navigation-ul > li.menu-item > a.menu-item-link{
-    font-family: 'BigNoodleTitling';
-    font-size: 21px !important;
+    font-family: 'AvenirLT-Medium';
+    font-size: 14px !important;
     font-weight: normal;
     padding-top: 20px;
 }
