@@ -1,6 +1,9 @@
 @orange: #f0682f;
 @navy: #1a365b;
 @l-gray: #ebebeb;
+@dark: #002042;
+@gold: #ffae00;
+
 
 @font-face {
     font-family: 'Akzidenz-Grotesk BQ';
@@ -698,7 +701,7 @@ h2{
     }
 }
 
-#faq{
+.faq, #faq{
     margin-top: 100px;
     .bluebox{
         
@@ -837,7 +840,7 @@ h2{
     }
     
     
-    //TRANSPORTE
+    //TRANSPORTE -----------------------------------------------------------------------------------------------------
     @gold: #ffae00;
     
     left{
@@ -860,7 +863,7 @@ h2{
         text-align: center;
     }
     
-    #atusalto{
+    .top2col, #atusalto{
         background: url(../img/transporte/background1coche.jpg) center top no-repeat; 
         min-height: 880px;
         background-size: cover;
@@ -894,6 +897,9 @@ h2{
     
     #contacto-parachutes{
         background: url(../img/transporte/BACKparachutes.png) center top no-repeat;
+        
+       
+        
         position: relative;
         top: -240px;
         margin-bottom: -240px;
@@ -964,6 +970,185 @@ h2{
         
         
     }
+    
+    //COMO LLEGAR ---------------------------------------------------------------------------------------------------------
+    
+    #comollegar{
+        
+         position: relative;
+            z-index: 1;
+        
+        padding-top: 80px;
+        background-image: none;
+        background-color: @dark;
+        .container{
+            padding: 0 20px;
+        }
+        
+        .description{
+            font-size: 22px;
+            margin-bottom: 40px;
+            padding-right: 5%;
+        }
+        
+    }
+    
+    #faq-arrive{
+        background: url(../img/comollegar/clouds.png) center top no-repeat;
+        
+            position: relative;
+            z-index: 2;
+            top: -240px;
+            margin-bottom: -240px;
+            min-height: 1100px;
+            background-size: cover;
+        
+        
+            .container{
+            position: relative;
+            top: 360px;
+
+            }
+        
+        .bdark{
+            background-color: @dark;
+             &:hover{
+                //background-color: @orange !important;
+            }
+        }
+        
+        .bnavy{
+            background-color: @navy;
+        }
+        
+        article{
+            border: solid white 0px !important;
+             &:hover{
+                //background-color: @orange !important;
+            }
+            
+            p{
+                font-size: 18px;
+                line-height: 120%;
+            }
+        }
+        
+        .content{
+            background-color: #f5f5f6;
+        }
+        
+        h4{
+            font-family: 'BigNoodleTitling';
+            font-size: 33px;
+            
+        }
+        
+        .effect:before, .effect:after{
+            color: @gold !important;
+            width: 25px;
+            font-weight: 600;
+            height: 6px;
+            background: @gold;
+        }
+        
+        
+        
+        .btn-new{
+            margin: 0 0 60px 3%;
+            box-shadow: -5px 6px 0px black;
+            &:hover{
+                background-color: @orange;
+                color: #f5f5f6;
+            }
+            
+        }
+    }
+    
+    
+    //button animated ----------------
+    
+    @import url("https://fonts.googleapis.com/css?family=Dosis");
+
+
+.social-container {
+  position: relative;
+  display: inline-block;
+  width: 300px;
+  height: 66px;
+  -webkit-perspective: 300px;
+          perspective: 300px;
+    
+    
+-webkit-perspective-origin: bottom; /* Safari 4-8  */  
+
+  perspective-origin: bottom;     
+    
+  font-size: 22px;
+  margin: 10px 3%;
+    font-family: 'Avenir';
+    
+}
+.social-container .social-cube {
+    
+   //transform: scale(1.1);
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  -webkit-transform-style: preserve-3d;
+          transform-style: preserve-3d;
+  transition: all 0.3s;
+  //-webkit-transform: translateZ(-18px);
+  //        transform: translateZ(-18px);
+}
+.social-container .social-cube .front, .social-container .social-cube .bottom {
+
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  transition: background 0.333s;
+}
+    
+    @tz: 33px;
+.social-container .social-cube .front {
+    color: @dark;
+    
+    //padding: 30px;
+  -webkit-transform: rotateX(0deg) translateZ(@tz);
+          transform: rotateX(0deg) translateZ(@tz);
+}
+.social-container .social-cube .bottom {
+    color: @dark;
+  -webkit-transform: rotateX(-90deg) translateZ(@tz);
+          transform: rotateX(-90deg) translateZ(@tz);
+}
+.social-container:hover .social-cube {
+    color: @dark;
+  -webkit-transform: translateZ(-18px) rotateX(90deg);
+          transform: translateZ(-18px) rotateX(90deg);
+}
+
+.social-container.twitter .social-cube .front, .social-container.twitter .social-cube .back {
+  background: @gold;
+}
+.social-container.twitter .social-cube .bottom {
+  background: @orange;
+}
+.social-container.twitter:hover .social-cube .bottom {
+  background: @orange;
+}
+.social-container.twitter:hover .social-cube .front {
+  background: @gold;
+}
+
+
     
     
 

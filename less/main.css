@@ -223,6 +223,9 @@ article.selected {
     transform: rotate(90deg);
   }
 }
+#tornado-landing {
+  @import url("https://fonts.googleapis.com/css?family=Dosis");
+}
 #tornado-landing a {
   transition: 0.3s;
 }
@@ -521,9 +524,11 @@ article.selected {
   font-family: 'Akzidenz-Grotesk BQ';
   font-size: 24px;
 }
+#tornado-landing .faq,
 #tornado-landing #faq {
   margin-top: 100px;
 }
+#tornado-landing .faq .bluebox,
 #tornado-landing #faq .bluebox {
   background-color: #1a365b;
   height: auto;
@@ -531,36 +536,47 @@ article.selected {
   padding: 50px;
   margin-bottom: 50px;
 }
+#tornado-landing .faq .bluebox h4,
 #tornado-landing #faq .bluebox h4 {
   padding-right: 60px;
   text-transform: lowercase;
 }
+#tornado-landing .faq .bluebox h4:first-letter,
 #tornado-landing #faq .bluebox h4:first-letter {
   text-transform: uppercase;
 }
+#tornado-landing .faq .bluebox h4 .mayus:first-letter,
 #tornado-landing #faq .bluebox h4 .mayus:first-letter {
   text-transform: uppercase !important;
 }
+#tornado-landing .faq .bluebox p,
 #tornado-landing #faq .bluebox p,
+#tornado-landing .faq .bluebox a,
 #tornado-landing #faq .bluebox a {
   color: white;
   font-size: 20px;
   padding-bottom: 20px;
 }
+#tornado-landing .faq .bluebox p span.orange:hover,
 #tornado-landing #faq .bluebox p span.orange:hover,
+#tornado-landing .faq .bluebox a span.orange:hover,
 #tornado-landing #faq .bluebox a span.orange:hover {
   color: darkorange;
 }
+#tornado-landing .faq .bluebox a:hover,
 #tornado-landing #faq .bluebox a:hover {
   color: #f0682f;
 }
+#tornado-landing .faq .bluebox .title-h2,
 #tornado-landing #faq .bluebox .title-h2 {
   font-size: 68px;
 }
+#tornado-landing .faq .bluebox .title-h2 #preguntas,
 #tornado-landing #faq .bluebox .title-h2 #preguntas {
   padding-left: 40px;
   padding-right: 40px;
 }
+#tornado-landing .faq .bluebox .title-h2 #frecuentes,
 #tornado-landing #faq .bluebox .title-h2 #frecuentes {
   padding-left: 40px;
   padding-right: 40px;
@@ -568,9 +584,11 @@ article.selected {
   top: 25px;
   right: 20px;
 }
+#tornado-landing .faq .bluebox .pf,
 #tornado-landing #faq .bluebox .pf {
   padding: 10px 10px 80px 10px;
 }
+#tornado-landing .faq .bluebox #w-addon,
 #tornado-landing #faq .bluebox #w-addon {
   position: relative;
   width: 31%;
@@ -629,21 +647,27 @@ article.selected {
   font-size: 28px;
   text-align: center;
 }
+#tornado-landing .top2col,
 #tornado-landing #atusalto {
   background: url(../img/transporte/background1coche.jpg) center top no-repeat;
   min-height: 880px;
   background-size: cover;
 }
+#tornado-landing .top2col h1,
 #tornado-landing #atusalto h1 {
   line-height: 190%;
 }
+#tornado-landing .top2col .flex,
 #tornado-landing #atusalto .flex {
   padding-top: 100px;
 }
+#tornado-landing .top2col .flex .col,
 #tornado-landing #atusalto .flex .col {
   padding-right: 10%;
 }
+#tornado-landing .top2col p,
 #tornado-landing #atusalto p,
+#tornado-landing .top2col .normal,
 #tornado-landing #atusalto .normal {
   font-family: 'avenir';
   font-weight: 100;
@@ -699,6 +723,135 @@ article.selected {
   box-shadow: -5px 3px 3px black;
   padding: 12px 30px;
   font-size: 28px;
+}
+#tornado-landing #comollegar {
+  position: relative;
+  z-index: 1;
+  padding-top: 80px;
+  background-image: none;
+  background-color: #002042;
+}
+#tornado-landing #comollegar .container {
+  padding: 0 20px;
+}
+#tornado-landing #comollegar .description {
+  font-size: 22px;
+  margin-bottom: 40px;
+  padding-right: 5%;
+}
+#tornado-landing #faq-arrive {
+  background: url(../img/comollegar/clouds.png) center top no-repeat;
+  position: relative;
+  z-index: 2;
+  top: -240px;
+  margin-bottom: -240px;
+  min-height: 1100px;
+  background-size: cover;
+}
+#tornado-landing #faq-arrive .container {
+  position: relative;
+  top: 360px;
+}
+#tornado-landing #faq-arrive .bdark {
+  background-color: #002042;
+}
+#tornado-landing #faq-arrive .bnavy {
+  background-color: #1a365b;
+}
+#tornado-landing #faq-arrive article {
+  border: solid white 0px !important;
+}
+#tornado-landing #faq-arrive article p {
+  font-size: 18px;
+  line-height: 120%;
+}
+#tornado-landing #faq-arrive .content {
+  background-color: #f5f5f6;
+}
+#tornado-landing #faq-arrive h4 {
+  font-family: 'BigNoodleTitling';
+  font-size: 33px;
+}
+#tornado-landing #faq-arrive .effect:before,
+#tornado-landing #faq-arrive .effect:after {
+  color: #ffae00 !important;
+  width: 25px;
+  font-weight: 600;
+  height: 6px;
+  background: #ffae00;
+}
+#tornado-landing #faq-arrive .btn-new {
+  margin: 0 0 60px 3%;
+  box-shadow: -5px 6px 0px black;
+}
+#tornado-landing #faq-arrive .btn-new:hover {
+  background-color: #f0682f;
+  color: #f5f5f6;
+}
+#tornado-landing .social-container {
+  position: relative;
+  display: inline-block;
+  width: 300px;
+  height: 66px;
+  -webkit-perspective: 300px;
+  perspective: 300px;
+  -webkit-perspective-origin: bottom;
+  /* Safari 4-8  */
+  perspective-origin: bottom;
+  font-size: 22px;
+  margin: 10px 3%;
+  font-family: 'Avenir';
+}
+#tornado-landing .social-container .social-cube {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  -webkit-transform-style: preserve-3d;
+  transform-style: preserve-3d;
+  transition: all 0.3s;
+}
+#tornado-landing .social-container .social-cube .front,
+#tornado-landing .social-container .social-cube .bottom {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  transition: background 0.333s;
+}
+#tornado-landing .social-container .social-cube .front {
+  color: #002042;
+  -webkit-transform: rotateX(0deg) translateZ(33px);
+  transform: rotateX(0deg) translateZ(33px);
+}
+#tornado-landing .social-container .social-cube .bottom {
+  color: #002042;
+  -webkit-transform: rotateX(-90deg) translateZ(33px);
+  transform: rotateX(-90deg) translateZ(33px);
+}
+#tornado-landing .social-container:hover .social-cube {
+  color: #002042;
+  -webkit-transform: translateZ(-18px) rotateX(90deg);
+  transform: translateZ(-18px) rotateX(90deg);
+}
+#tornado-landing .social-container.twitter .social-cube .front,
+#tornado-landing .social-container.twitter .social-cube .back {
+  background: #ffae00;
+}
+#tornado-landing .social-container.twitter .social-cube .bottom {
+  background: #f0682f;
+}
+#tornado-landing .social-container.twitter:hover .social-cube .bottom {
+  background: #f0682f;
+}
+#tornado-landing .social-container.twitter:hover .social-cube .front {
+  background: #ffae00;
 }
 @media screen and (max-width: 1225px) {
   #tornado-landing #tunel .big {
