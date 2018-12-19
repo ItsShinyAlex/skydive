@@ -14,25 +14,27 @@
             </div>
             
             <div class="col left-allign">
-                <h1 class="white heavy" >
-                    <span class="normal">¿Cómo llegar a </span>  <br>
+                <h1 class="black heavy" >
+                    <span class="big noodle">SALTA EN caída LIBRE EN  </span>  <br>
                     <span class="orange loved">
-                            SKYDIVE MÉXICO <br>
+                            TEQUESQUITENGO <br>
                     </span>
-                    <span class="big noodle">TEQUESQUITENGO?</span> 
+                    
                 </h1>
-                       
-                <a href="https://www.google.com/maps/place/Skydive+M%C3%A9xico+-+Paracaidismo+Tequesquitengo/@18.647693,-99.264669,15z/data=!4m2!3m1!1s0x0:0x2be027abb591c6c7?ved=2ahUKEwiX6cfK7p3fAhVLs6wKHfGzDqEQ_BIwFXoECAYQCA" class="social-container twitter" target="_blank">
-                    <div class="social-cube">
-                      <div class="front center">
-                        VER UBICACIÓN EN <br>
-                        GOOGLE MAPS
-                      </div>
-                      <div class="bottom center">
-                         <i class="fas fa-map-marker-alt "></i>
-                      </div>
+                <h2><span class="normal">Somos la zona #1 del mundo en saltos TANDEM</span> </h2>           
+            
+                <div class="flex padtop">
+                    <div class="col smaller">
+                        <a href="" class="btn-new">
+                            PAQUETES
+                        </a>
                     </div>
-                  </a>
+                    <div class="col bigger">
+                        <a href="" class="btn-new bluebtn">
+                            MÁS INFORMACIÓN
+                        </a>
+                    </div>
+                </div>
                 
                 
             </div>
@@ -60,31 +62,38 @@
             
             
             <div class="col left-allign">
-                <h1 class="white heavy" >
-                    <span class="normal">¿Cómo llegar a </span>  <br>
+                <h1 class="white heavy center" >
+                    
+                     <span class="big noodle">SALTA EN CAÍDA LIBRE</span> <br>
+                     
+                     <span class="normal">A 200 KM por hora</span>  <br>
+                    
                     <span class="orange loved">
-                            SKYDIVE MÉXICO <br>
+                            SALTOS TANDEM <br>
                     </span>
-                    <span class="big noodle">TEQUESQUITENGO?</span> 
+                    
+                    
+                    
+                   
                 </h1>
                        
-                <a href="https://www.google.com/maps/place/Skydive+M%C3%A9xico+-+Paracaidismo+Tequesquitengo/@18.647693,-99.264669,15z/data=!4m2!3m1!1s0x0:0x2be027abb591c6c7?ved=2ahUKEwiX6cfK7p3fAhVLs6wKHfGzDqEQ_BIwFXoECAYQCA" class="social-container twitter" target="_blank">
-                    <div class="social-cube">
-                      <div class="front center">
-                        VER UBICACIÓN EN <br>
-                        GOOGLE MAPS
-                      </div>
-                      <div class="bottom center">
-                         <i class="fas fa-map-marker-alt "></i>
-                      </div>
-                    </div>
-                  </a>
+                <img src="../img/home/cloudsSatlo.png" alt="Salto desde las nubes">
                 
                 
             </div>
             
             
-            <div class="col left-allign ">
+            <div class="col left-allign two">
+                    <p>
+                        Salta con un instructor en un paracaídas especial llamado Tándem y experimenta con seguridad la maravilla de este increíble deporte.
+                    </p>
+                    
+                    <p>Podrás vivir la indescriptible emoción de volar y aterrizar suavemente después de un placentero planeo de cinco minutos con tu paracaídas abierto.</p>
+                    
+                    <p class="orange">TU SALTO SERÁ LA MEJOR EXPERIENCIA QUE VIVIRÁS CON LA ROPA PUESTA.</p>
+                    
+                    <p>El salto tándem es el método de entrenamiento más importante para aquellos que lo hacen por primera vez, haciendo que este deporte extremo sea accesible para millones de personas alrededor del mundo. En tu salto tándem irás acompañado por un instructor certificado quien te guiará en todo momento. </p>
+            
             </div>
             
      

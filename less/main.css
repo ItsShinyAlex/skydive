@@ -271,6 +271,7 @@ article.selected {
   /*-------------------------*/
   /* SKEW COUNTER CLOCKWISE  */
   /*-------------------------*/
+  /* Rotate */
   @import url("https://fonts.googleapis.com/css?family=Dosis");
 }
 #tornado-landing a {
@@ -360,7 +361,7 @@ article.selected {
   color: #1a365b;
 }
 #tornado-landing .orange {
-  color: #f0682f;
+  color: #f0682f !important;
 }
 #tornado-landing .small-h2 {
   color: white;
@@ -852,10 +853,68 @@ article.selected {
 #tornado-landing .blue-skew {
   background-color: #1a365b;
 }
+#tornado-landing .black {
+  color: black;
+}
+#tornado-landing .bluebtn {
+  background-color: #1a365b;
+  color: #ffae00;
+}
 #tornado-landing #home-banner {
   background: url(../img/home/banner.jpg) center no-repeat;
   background-size: cover;
   min-height: 100%;
+}
+#tornado-landing #home-banner .padtop {
+  padding-top: 30px;
+}
+#tornado-landing #home-banner .col {
+  padding-right: 3%;
+}
+#tornado-landing #home-banner .col h2 {
+  padding-right: 20%;
+}
+#tornado-landing #home-banner .btn-new {
+  font-size: 22px;
+}
+#tornado-landing #home-banner .big {
+  font-size: 64px;
+}
+#tornado-landing #home-banner .normal {
+  line-height: 80%;
+  color: black;
+}
+#tornado-landing #home-banner .smaller {
+  padding-right: 5px;
+  width: 36%;
+}
+#tornado-landing #home-banner .bigger {
+  padding: 0;
+  width: 63%;
+}
+#tornado-landing #tandem {
+  background-color: #1a365b;
+  background-image: none;
+}
+#tornado-landing #tandem p {
+  font-size: 21px;
+}
+#tornado-landing #tandem .noodle {
+  position: relative;
+  top: 20px;
+}
+#tornado-landing .hover06 figure img {
+  -webkit-transform: rotate(15deg) scale(1.4);
+  transform: rotate(15deg) scale(1.4);
+  -webkit-transition: 0.3s ease-in-out;
+  transition: 0.3s ease-in-out;
+}
+#tornado-landing .hover06 figure:hover img {
+  -webkit-transform: rotate(0) scale(1);
+  transform: rotate(0) scale(1);
+}
+#tornado-landing #avientate .col {
+  padding: 0;
 }
 #tornado-landing .social-container {
   position: relative;

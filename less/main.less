@@ -501,7 +501,7 @@ h2{
 }
 
 .orange{
-    color: @orange;
+    color: @orange !important;
 }
 
 .small-h2{
@@ -1171,10 +1171,54 @@ h2{
         background-color: @navy;
     }
     
+    .black{
+        color: black;
+    }
+    .bluebtn{
+        background-color: @navy;
+        color: @gold;
+    }
+    
     #home-banner{
         background: url(../img/home/banner.jpg) center no-repeat;
         background-size: cover;
         min-height: 100%;
+        
+        .padtop{
+            padding-top: 30px;
+        }
+        
+        .col{
+            padding-right: 3%;
+            
+            h2{
+                padding-right: 20%;
+            }
+        }
+        
+        .btn-new{
+            font-size: 22px;
+        }
+
+        
+        .big{
+            font-size: 64px;
+        }
+        
+        .normal{
+            line-height: 80%;
+            color: black;
+        }
+        
+        .smaller{
+            padding-right: 5px;
+            width: 36%;
+        }
+        
+        .bigger{
+            padding: 0;
+            width: 63%;;
+        }
         
         .tobottom{
             
@@ -1182,7 +1226,37 @@ h2{
     }
     
     #tandem{
+        background-color: @navy;
+        background-image: none;
         
+        p{
+            font-size: 21px;
+        }
+        
+        .noodle{
+            position: relative;
+            top: 20px;
+        }
+    }
+    
+    
+    
+    /* Rotate */
+        .hover06 figure img {
+            -webkit-transform: rotate(15deg) scale(1.4);
+            transform: rotate(15deg) scale(1.4);
+            -webkit-transition: .3s ease-in-out;
+            transition: .3s ease-in-out;
+        }
+        .hover06 figure:hover img {
+            -webkit-transform: rotate(0) scale(1);
+            transform: rotate(0) scale(1);
+        }
+    
+    #avientate{
+        .col{
+            padding: 0;
+        }
     }
     
     
