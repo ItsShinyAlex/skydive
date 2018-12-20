@@ -990,6 +990,50 @@ article.selected {
 #tornado-landing #why1 .flex3 .col p {
   line-height: 118%;
 }
+#tornado-landing .right-allign {
+  text-align: right;
+}
+#tornado-landing #bestplanes {
+  background-color: #ffae00;
+  background-image: none;
+}
+#tornado-landing #bestplanes p,
+#tornado-landing #bestplanes h2 {
+  color: #1a365b !important;
+}
+#tornado-landing #bestplanes .normal {
+  color: #1a365b;
+}
+#tornado-landing #bestplanes h2 {
+  line-height: 195%;
+}
+#tornado-landing #bestplanes .loved {
+  text-transform: uppercase;
+}
+#tornado-landing #bestplanes .small {
+  margin-top: 40px;
+  font-size: 18px;
+  padding-left: 18%;
+}
+#tornado-landing #opiniones p {
+  font-size: 32px;
+}
+#tornado-landing #precios {
+  background-color: #1a365b;
+}
+#tornado-landing #precios .small {
+  font-size: 18px;
+  text-align: left;
+  padding-right: 15%;
+}
+#tornado-landing #garantia {
+  background-color: #002042;
+}
+#tornado-landing #garantia p {
+  color: white;
+  font-size: 24px;
+  line-height: 120%;
+}
 #tornado-landing .social-container {
   position: relative;
   display: inline-block;

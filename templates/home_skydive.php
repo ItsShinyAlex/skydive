@@ -297,6 +297,153 @@
 </section>
 
 
+<section class="template-section top2col" id="bestplanes">
+    <div class="container">
+        <div class="flex">
+        
+           
+           
+            <div class="col left-allign ">
+            </div>
+            
+            <div class="col right-allign">
+                <h2 class="navy heavy" >
+                   <span class="normal navy">¡Los mejores aviones</span><br>
+                    <span class="big noodle">de paracaidismo </span><br>
+                    <span class=" loved">en el mundo!
+                     <br>
+                    </span>
+                    
+                </h2>
+                <p class="small">Contamos con tres aviones Cessna Caravan Super Van 900 y un Super Twin Otter. Son lo más avanzado para el paracaidismo ¡Y los tenemos aquí para ti!</p>    
+                
+                
+            </div>
+     
+        </div>
+    </div>
+    
+    
+    
+</section>
+
+
+<section class="template-section " id="opiniones">
+    <div class="container">
+        <div class="center">
+            <h2 class="orange loved">OPINIONES</h2>
+            <p class="black">de quienes se han aventado</p>
+            
+            <div id="oplugin">
+                
+            </div>
+            
+            
+            <a href="https://www.google.com/maps/place/Skydive+M%C3%A9xico+-+Paracaidismo+Tequesquitengo/@18.647693,-99.264669,15z/data=!4m2!3m1!1s0x0:0x2be027abb591c6c7?ved=2ahUKEwiX6cfK7p3fAhVLs6wKHfGzDqEQ_BIwFXoECAYQCA" class="social-container twitter" target="_blank">
+                    <div class="social-cube">
+                      <div class="front center navy-back">
+                        QUIERO SALTAR
+                      </div>
+                      <div class="bottom center">
+                         <i class="fas fa-plane"></i>
+                      </div>
+                    </div>
+                  </a>
+            
+            
+        </div>
+    </div>
+    
+    
+    
+</section>
+
+
+<section class="template-section " id="precios">
+    <div class="container">
+        <div class="center">
+            <h2 class="gold loved">PAQUETE AVIENTES!</h2>
+                
+                <h3 class="gold"> <b>CONDICIONES DE SEGURIDAD</b></h3>
+                <div class="flex">
+                    
+                    <div class="col">
+                        <p class="white small">
+                            1. Tu peso no puede exceder los 90kg, sino existirá un costo adicional. (Lo máximo aceptable serán 110kg) <br>
+                                2. Los niños pueden vivir la experiencia siempre que tengan 7 años cumplidos y pesen más de 25 kilos. <br>
+                                3. Por seguridad, no pueden saltar personas con gripa, problemas cardiacos, fracturas o cirugías recientes, epilepsia o mujeres embarazadas. <br>
+                        </p>
+                    </div>
+                    <div class="col">
+                        
+                        <p class="white small">
+                            
+                            4. Es indispensable presentar tu identificación oficial y tu comprobante de pago original en la zona de salto. <br>
+                            5. Recuerda que no tenemos políticas de reembolso.  Si no puedes asistir por favor notifícalo 48 horas antes para agendar tu salto en otra fecha. <br>
+                            6. Todos nuestros precios en zona de salto aplican SIN promoción alguna. <br>
+                            
+                        </p>
+                        
+                        
+                    </div>
+                    
+                </div>
+                
+                     <a href="https://www.google.com/maps/place/Skydive+M%C3%A9xico+-+Paracaidismo+Tequesquitengo/@18.647693,-99.264669,15z/data=!4m2!3m1!1s0x0:0x2be027abb591c6c7?ved=2ahUKEwiX6cfK7p3fAhVLs6wKHfGzDqEQ_BIwFXoECAYQCA" class="social-container twitter" target="_blank">
+                    <div class="social-cube">
+                      <div class="front center">
+                        RESRERVA AQUÍ
+                      </div>
+                      <div class="bottom center">
+                         <i class="fas fa-calendar-check"></i>
+                      </div>
+                    </div>
+                  </a>
+                
+            
+        </div>
+    </div>
+    
+    
+    
+</section>
+
+
+<section class="template-section" id="garantia">
+    <div class="container">
+        <div class="flex">
+        
+           
+           
+            <div class="col fcentered ">
+                <h2>
+                    
+                    <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/home/garantia.png" alt="Garantía de satisfacción">
+                    
+                </h2>
+                
+                
+            </div>
+            
+            <div class="col left-allign">
+                <p>
+                    Si al llegar a nuestras instalaciones tus expectativas de calidad, servicio o seguridad no son satisfactorias y y decides realizar tu salto en otro sitio, nos comprometemos a reembolsar inmediatamente el 100 % de tu depósito que hiciste para garantizar tu reserva. 
+                </p>
+                
+                <p>
+                    
+                    Somas  el único Centro de Paracaidismo que te ofrece esta opción de GARANTÍA DE SATISFACCIÓN  y no "TE AMARRAMOS" pidiéndote depósitos no reembolsables... ¡COMPARA!
+                    
+                </p>
+            </div>
+     
+        </div>
+    </div>
+    
+    
+    
+</section>
+
 
 
 
