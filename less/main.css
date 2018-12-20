@@ -271,7 +271,6 @@ article.selected {
   /*-------------------------*/
   /* SKEW COUNTER CLOCKWISE  */
   /*-------------------------*/
-  /* Rotate */
   @import url("https://fonts.googleapis.com/css?family=Dosis");
 }
 #tornado-landing a {
@@ -362,6 +361,9 @@ article.selected {
 }
 #tornado-landing .orange {
   color: #f0682f !important;
+}
+#tornado-landing .gold {
+  color: #ffae00 !important;
 }
 #tornado-landing .small-h2 {
   color: white;
@@ -903,18 +905,90 @@ article.selected {
   position: relative;
   top: 20px;
 }
-#tornado-landing .hover06 figure img {
-  -webkit-transform: rotate(15deg) scale(1.4);
-  transform: rotate(15deg) scale(1.4);
-  -webkit-transition: 0.3s ease-in-out;
-  transition: 0.3s ease-in-out;
+#tornado-landing .navy-back {
+  background-color: #1a365b !important;
+  color: #ffae00 !important;
 }
-#tornado-landing .hover06 figure:hover img {
-  -webkit-transform: rotate(0) scale(1);
-  transform: rotate(0) scale(1);
+#tornado-landing #avientate {
+  background-color: #fbdb00;
+  /* Rotate */
+}
+#tornado-landing #avientate .social-container {
+  margin-top: 100px;
+}
+#tornado-landing #avientate h2,
+#tornado-landing #avientate p {
+  color: #1a365b;
+}
+#tornado-landing #avientate .fcentered {
+  flex-direction: column;
+}
+#tornado-landing #avientate .hover06 figure img {
+  -webkit-transform: rotate(0) scale(1) !important;
+  transform: rotate(0) scale(1) !important;
+  transition: 0.1s ease-in-out;
+}
+#tornado-landing #avientate .hover06 figure:hover img {
+  -webkit-transform: rotate(15deg) scale(1.4) !important;
+  transform: rotate(15deg) scale(1.4) !important;
+  -webkit-transition: 0.1s ease-in-out;
+  transition: 0.1s ease-in-out;
+}
+#tornado-landing #avientate .hover06 {
+  display: block !important;
+}
+#tornado-landing #avientate figure {
+  width: 100%;
+  height: 300px;
+  margin: 0;
+  padding: 0;
+  background-color: #3780ac;
+  overflow: hidden;
 }
 #tornado-landing #avientate .col {
+  background-color: transparent;
   padding: 0;
+  width: 25%;
+  transition: 0.1s ease-in-out;
+}
+#tornado-landing #avientate .col:hover {
+  transform: scale(1.1);
+  transition: 0.1s ease-in-out;
+}
+#tornado-landing #avientate .col img {
+  width: 100%;
+}
+#tornado-landing #avientate .col img:hover {
+  transform: scale(1.1);
+  transition: 0.2s ease-in-out;
+}
+#tornado-landing #why1 {
+  background-color: #1a365b;
+  background-image: none;
+}
+#tornado-landing #why1 .flex3 .col {
+  transition: 0.2s ease-in-out !important;
+  text-align: center;
+  width: 33.3%;
+}
+#tornado-landing #why1 .flex3 .col img {
+  transition: transform .3s !important;
+}
+#tornado-landing #why1 .flex3 .col img:hover {
+  transition: 0.2s ease-in-out;
+  transition: transform .3s !important;
+  transform: translate(0px, -25px) !important;
+}
+#tornado-landing #why1 .flex3 .col h3 {
+  color: #ffae00;
+  text-transform: uppercase;
+}
+#tornado-landing #why1 .flex3 .col h3,
+#tornado-landing #why1 .flex3 .col p {
+  font-size: 18px;
+}
+#tornado-landing #why1 .flex3 .col p {
+  line-height: 118%;
 }
 #tornado-landing .social-container {
   position: relative;

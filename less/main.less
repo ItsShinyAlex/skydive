@@ -3,6 +3,7 @@
 @l-gray: #ebebeb;
 @dark: #002042;
 @gold: #ffae00;
+@yellow: #fbdb00;
 
 
 
@@ -503,6 +504,10 @@ h2{
 .orange{
     color: @orange !important;
 }
+    
+    .gold{
+        color: @gold !important;
+    }
 
 .small-h2{
     color: white;
@@ -1241,21 +1246,130 @@ h2{
     
     
     
-    /* Rotate */
-        .hover06 figure img {
-            -webkit-transform: rotate(15deg) scale(1.4);
-            transform: rotate(15deg) scale(1.4);
-            -webkit-transition: .3s ease-in-out;
-            transition: .3s ease-in-out;
-        }
-        .hover06 figure:hover img {
-            -webkit-transform: rotate(0) scale(1);
-            transform: rotate(0) scale(1);
-        }
+
+    
+    
+    .navy-back{
+        background-color: @navy !important;
+        color: @gold !important;
+    }
     
     #avientate{
-        .col{
+        
+        .social-container{
+            margin-top: 100px;
+        }
+        
+        h2, p{
+            color: @navy;
+        }
+        
+        .fcentered{
+            flex-direction: column;
+        }
+        
+        background-color: @yellow;
+        
+        
+            /* Rotate */
+        .hover06 figure img {
+           
+            
+                -webkit-transform: rotate(0) scale(1) !important;
+                transform: rotate(0) scale(1) !important;
+            transition: .1s ease-in-out;
+            }
+            .hover06 figure:hover img {
+                
+                     -webkit-transform: rotate(15deg) scale(1.4) !important;
+                transform: rotate(15deg) scale(1.4) !important;
+                -webkit-transition: .1s ease-in-out;
+                transition: .1s ease-in-out;
+            
+            }
+        
+        .hover06{
+            display: block !important;
+        }
+        
+
+        
+        figure {
+            width: 100%;
+            height: 300px;
+            margin: 0;
             padding: 0;
+            background-color: #3780ac;
+            overflow: hidden;
+            
+        }
+        
+        .col{
+            
+            background-color: transparent;
+                
+            
+            padding: 0;
+            width: 25%;
+             transition: .1s ease-in-out;
+            &:hover{
+                    transform: scale(1.1);
+                    transition: .1s ease-in-out;
+                }
+            
+            
+            img{
+                width: 100%;
+                &:hover{
+                    transform: scale(1.1);
+                    transition: .2s ease-in-out;
+                }
+            }
+        }
+    }
+    
+    
+    #why1{
+        background-color: @navy;
+        background-image: none;
+        
+        .flex3{
+            
+            
+            .col{
+
+                transition: .2s ease-in-out !important;
+                //position: relative;
+                img{
+                     //position: relative;
+                    transition: transform .3s !important;
+                }
+                
+                img:hover{
+                    //position: relative;
+                    //bottom: 15px;
+             
+                    transition: .2s ease-in-out;
+                    transition: transform .3s !important;
+                    transform: translate(0px, -25px) !important;
+                }
+                
+                text-align: center;
+                h3{
+                    color: @gold;
+                    text-transform: uppercase;
+                }
+                
+                h3,p{
+                    font-size: 18px;
+                }
+                
+                p{
+                    line-height: 118%;
+                }
+                
+                width: 33.3%;
+            }
         }
     }
     
