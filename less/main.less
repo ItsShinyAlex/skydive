@@ -1247,7 +1247,10 @@ h2{
     
     
 
-    
+    .dark-back{
+        background-color: @dark !important;
+        color: @gold !important;
+    }
     
     .navy-back{
         background-color: @navy !important;
@@ -1428,6 +1431,207 @@ h2{
             line-height: 120%;
         }
     }
+    
+    #inmortaliza{
+        
+        .container{
+            padding: 40px 6%;
+        }
+        
+        background-color: @orange;
+        background-image: none;
+        
+        h2,h3,p{
+            color: white;
+        }
+        
+        h2{
+            line-height: 135%;
+        }
+        
+        .gold{
+            position: relative;
+            top: 19px; 
+        }
+        
+        p{
+            padding-top: 40px;
+            font-size: 24px;
+        }
+        
+        h3{
+          font-size: 24px;  
+            margin-top: 40px;
+            margin-bottom: 25px;
+            font-weight: 600;
+        }
+        
+        h4{
+            font-size: 30px;
+            color: @gold;
+        }
+        
+        .flex4{
+            
+            margin-bottom: 40px;
+            
+            .col{
+                transition: all .3s;
+                &:hover{
+                    transform: scale(1.1) !important;
+                    transition: all .3s;
+                    
+                }
+                
+                position: relative;
+                min-height: 900px;
+                width: 25%;
+                padding: 0;
+                
+                
+                
+                img{
+                    width: 96%;
+                }
+                
+                .price{
+                    color: @gold;
+                    font-size: 46px;
+                    font-weight: 900;
+                    position: absolute;
+                    bottom: 0;
+                      left: 0;
+                }
+                
+                p, h3, h4 {
+                    padding: 0 8%;
+                }
+                
+                p{
+                    padding-top: 40px;
+                    font-size: 21px;
+                }
+                
+                
+                
+            }
+        }
+        
+        .bluebox{
+                    h3,p{
+                        padding: 0;
+                        margin: 0;
+                    }
+            
+            p{
+                padding-bottom: 20px;
+            }
+                }
+        
+        
+          .fcentered{
+        margin-top: 40px;
+    }
+        
+        
+    }
+    
+    .bluebox{
+        background-color: @dark;
+        h3{
+            color: @gold !important;
+            font-size: 30px;
+        }
+        p{
+            color: white;
+            font-size: 21px;
+            
+        }
+        padding: 30px 66px;
+    }
+    
+    #certificado{
+        background: url(../img/home/backCertificado.jpg) center no-repeat;
+        min-height: 500px;
+        padding-top: 70px;
+        background-size: cover;
+        
+        .one{
+            width: 39%;
+            padding-left: 6%;
+            
+        
+                    .mask a{
+              position: relative;
+              display:block;
+              width:341px;
+              height: 341px;
+              text-align:center;
+              
+              background: ;
+              -webkit-filter: drop-shadow(1px 1px 8px rgba(0,0,0,1));
+            }
+            .mask a{
+              background-position: -338px 0;
+                transition: all 0s ;
+
+            }
+            .mask a:hover,
+            .mask a:focus{
+              background-position: 350px 0;
+              /*change speed to see in slow motion*/
+              transition: all 1.3s;
+   
+            }
+            .mask a::after{
+  
+              content:'';
+              position: absolute;
+              pointer-events: none;
+              top:0; left:0; right:0; bottom: 0;
+              background: radial-gradient(0 0,circle farthest-side, rgba(255,255,255,0) 90%,rgba(255,255,255,.8) 98%,rgba(255,255,255,0) 100%) no-repeat;
+              background: radial-gradient(circle farthest-side at 0 0, rgba(255,255,255,0) 90%,rgba(255,255,255,.8) 98%,rgba(255,255,255,0) 100%) no-repeat;
+              background-position: inherit; 
+              -webkit-mask: url(../img/home/liderMUNDIALno.png) center;
+              mask: url('#mask-firefox');
+            }
+            
+            img{
+              
+
+            }
+
+        }
+        .two{
+            width: 48%;
+            
+            h3, p {
+                color: black;
+            }
+            
+            h3{
+                font-size: 80px;
+                font-weight: 600;
+            }
+            
+            p{
+                font-size: 24px;
+                line-height: 111%;
+            }
+            
+        }
+        
+        
+        
+        
+        
+
+        
+        
+        
+    }
+    
+  
     
     
     //button animated ----------------

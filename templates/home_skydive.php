@@ -445,6 +445,259 @@
 </section>
 
 
+<section class="template-section top2col" id="inmortaliza">
+    <div class="container">
+       
+       
+       
+            <div class="center">
+              
+                  <h2 class=" " >
+
+                        <span class="big noodle">INMORTALIZA </span><br>
+                        <span class="normal ">esta increíble</span><br>
+                        <span class="gold loved">experiencia
+                         <br>
+                        </span>
+
+                    </h2>
+
+                    <p class="padsides">
+                        Esta memorable vivencia, se puede preservar si contratas el servicio de grabación en donde se capta la secuencia de todo tu salto, desde la preparación hasta su aterrizaje. Sabemos que aventarte y no grabar la experiencia sería imperdonable. Nuestros servicios de fotografía y vídeo puedes contratarlos directamente en zona de salto.
+
+
+                    </p>
+                    
+                     
+
+              </div>
+       
+        <div class="flex flex4">
+        
+         
+          
+          <div class="col">
+              
+              <div class="fcentered">
+                  <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/home/inmor1.png" alt="">
+              </div>
+              <h3>
+                  VÍDEO DE MANO
+              </h3>
+              <h4>INCLUYE:</h4>
+              <p>
+                  
+                  •Video desde la muñeca del instructor <br>
+                    •Tomas del abordaje al avión <br>
+                    •Tomas de la caída libre <br>
+                    •Tomas del vuelo en paracaídas <br>
+                    •Tomas del aterrizaje <br>
+                    •Video editado (3 a 5 min.) <br>
+                  
+              </p>
+              
+              
+              
+               <p class="price">
+                          $850.00
+                     </p>
+              
+              
+          </div>
+          
+           <div class="col">
+              
+              <div class="fcentered">
+                  <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/home/inmor2.png" alt="">
+              </div>
+              <h3>
+                  FOTO Y VÍDEO DE MANO
+
+              </h3>
+              <h4>INCLUYE:</h4>
+              <p>
+                  
+                    •Video desde la muñeca del instructor <br>
+                    •Tomas del abordaje al avión <br>
+                    •Tomas de la caída libre <br>
+                    •Tomas del vuelo en paracaídas <br>
+                    •Tomas del aterrizaje <br>
+                    •Video editado (3 a 5 min.) <br> 
+                    •Captura de 60 a 90 fotografías <br>
+                  
+              </p>
+              
+              
+              
+              
+                <p class="price">
+                  $1,000.00
+              </p>
+              
+          </div>
+          
+          
+          
+          
+           <div class="col">
+              
+              <div class="fcentered">
+                  <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/home/inmor3.png" alt="">
+              </div>
+              <h3>
+                  FOTO Y VÍDEO EXTERNO
+              </h3>
+              <h4>INCLUYE:</h4>
+              <p>
+                  
+                  •1 paracaidista y fotógrafo profesional te graba a distancia <br>
+                    •Tomas del abordaje al avión <br>
+                    •Tomas de la caída libre <br>
+                    •Tomas del aterrizaje <br> 
+                    •Video editado (4 a 6 min.) <br>
+                    •Captura de 60 a 90 fotografías <br>
+                  
+              </p>
+              
+              
+                <p class="price">
+                  $1,300.00
+              </p>
+              
+              
+              
+          </div>
+           
+           
+            <div class="col">
+              
+              <div class="fcentered">
+                  <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/home/inmor4.png" alt="">
+              </div>
+              <h3>
+                  PAQUETE PREMIUM
+              </h3>
+              <h4>INCLUYE:</h4>
+              <p>
+                  
+                  •Video desde la muñeca del instructor <br>
+                    •1 paracaidista y fotógrafo profesional te graba a distancia <br>
+                    •Tomas del abordaje al avión <br>
+                    •Tomas de la caída libre <br>
+                    •Tomas del vuelo en paracaídas <br>
+                    •Tomas del aterrizaje <br>
+                    •Video editado (4 a 6 min.)  <br>
+                    •Captura de 60 a 100 fotografías <br>
+                  
+              </p>
+              
+              
+              <p class="price">
+                  $1,700.00
+              </p>
+              
+              
+              
+          </div>
+     
+        </div>
+        
+        <div class="bluebox">
+            <h3>NOTA:</h3>
+            <p>*La entrega de tus archivos se realizará 25 minutos después en cualquiera de tus dispositivos Android o Apple, USB, Micro SD y es importante contar con 5 G de memoria. <br>
+            *Si deseas tus archivos en USB, puedes adquirirla con nosotros por un costo adicional de $80.00 mxn.</p>
+            <p>En caso de requerir factura, los precios no incluyen I.V.A.</p>
+        </div>
+        
+        <div class="fcentered">
+            
+              <a href="https://www.google.com/maps/place/Skydive+M%C3%A9xico+-+Paracaidismo+Tequesquitengo/@18.647693,-99.264669,15z/data=!4m2!3m1!1s0x0:0x2be027abb591c6c7?ved=2ahUKEwiX6cfK7p3fAhVLs6wKHfGzDqEQ_BIwFXoECAYQCA" class="social-container twitter" target="_blank">
+                    <div class="social-cube">
+                      <div class="front center">
+                        RESRERVA AQUÍ
+                      </div>
+                      <div class="bottom center dark-back">
+                         <i class="fas fa-calendar-check"></i>
+                      </div>
+                    </div>
+                  </a>
+            
+        </div>
+        
+      
+        
+    </div>
+    
+    
+    
+</section>
+
+
+
+<section class="template-section" id="certificado">
+    <div class="container">
+        <div class="flex">
+        
+           
+           
+            <div class="col fcentered one">
+               
+               
+               <div class="mask pseudo fcentered">
+                   
+                   
+                  <a href="">
+        
+                           <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/home/liderMUNDIALno.png" alt="Líder Mundial en saltos Tandem">
+                    
+             
+                  </a> 
+                   
+               </div>
+               
+               <svg height="0">
+                      <!-- THE mask -->
+                      <mask id="mask-firefox">
+                        <image width="341" height="341" xlink:href="<?php echo get_stylesheet_directory_uri(); ?>/img/home/liderMUNDIAL.png" filter="url(#filter)" /> 
+                      </mask>
+
+                      <!-- the filter to make the image white -->
+                      <filter id="filter">
+                        <feFlood flood-color="white" />
+                        <feComposite in2="SourceAlpha" operator="in" />
+                      </filter>
+                    </svg>
+               
+                
+                
+                
+            </div>
+            
+            <div class="col left-allign two">
+               
+               
+               <h3 class="loved">ADVERTENCIA</h3>
+               
+                <p>
+                    
+                    Otros Centros de paracaidismo, en la geografía de nuestro país, se hacen pasar por nosotros. Usan ilegalmente nuestra marca registrada  "SKYDIVE MÉXICO"  para promocionarse como si fuera suya, lo que causa serios inconvenientes a nuestros participantes además, tratan de desprestigiarnos con falacias.
+                </p>
+                
+                <p>
+                    
+                    <b>POR FAVOR, ¡NO TE CONFUNDAS!</b>
+                    
+                </p>
+            </div>
+     
+        </div>
+    </div>
+    
+    
+    
+</section>
+
+
 
 
 <?php 
