@@ -1152,11 +1152,13 @@ h2{
 /*------------------*/
 .skew-cc{
   width:100%;
-  height:160px;
+  height:200px;
   position: inherit;
   left:0px;
-  background: linear-gradient(to right bottom, transparent 49%, @navy 50%);
+  background: linear-gradient(to right bottom, @navy  49%, transparent  50%);
 }
+    
+    
 
 
 /*-------------------------*/
@@ -1169,6 +1171,14 @@ h2{
   left:0px;
   background: linear-gradient(to left bottom, #fff 49%, #823A9C 50%);
 }
+    
+    .navybot-sk{
+        background: linear-gradient(to right bottom, transparent  49%,  @navy 50%);
+    }
+    
+    .darktop-sk{
+        background: linear-gradient(to right bottom, @dark   49%, transparent  50%);
+    }
     
 
     
@@ -1231,6 +1241,9 @@ h2{
     }
     
     #tandem{
+        position: relative;
+      z-index: 1;
+        
         background-color: @navy;
         background-image: none;
         
@@ -1257,7 +1270,24 @@ h2{
         color: @gold !important;
     }
     
+    .skew{
+        position: relative;
+        z-index: 3 !important;
+    }
+    
+    .upper{
+         position: relative;
+            top: -200px;
+            margin-bottom: -200px;
+    }
+    
     #avientate{
+        z-index: 1 !important;
+          position: relative;
+           top: -200px;
+        margin-bottom: -200px;
+        padding-top: 350px;
+        padding-bottom: 300px;
         
         .social-container{
             margin-top: 100px;
@@ -1331,10 +1361,16 @@ h2{
         }
     }
     
+    #why1s, #why1{
+        position: relative;
+        bottom: 200px;
+    }
+    
     
     #why1{
         background-color: @navy;
         background-image: none;
+        margin-bottom: -200px;
         
         .flex3{
             
@@ -1423,6 +1459,9 @@ h2{
     }
     
     #garantia{
+        
+        padding-top: 340px;
+        padding-bottom: 120px;
         background-color: @dark;
         
         p{
@@ -1433,6 +1472,8 @@ h2{
     }
     
     #inmortaliza{
+        
+        padding-top: 210px;
         
         .container{
             padding: 40px 6%;

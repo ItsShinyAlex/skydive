@@ -101,6 +101,11 @@
     </div>
 </section>
 
+<section class="skew yellowsk skew-cc">
+    
+    
+    
+</section>
 
 
 <section class="template-section" id="avientate">
@@ -193,6 +198,24 @@
      
     </div>
 </section>
+
+
+
+
+
+
+
+<section id="why1s" class="skew navybot-sk skew-cc">
+    
+    
+    
+</section>
+
+
+
+
+
+
 
 <section class="template-section top2col" id="why1">
     <div class="container">
@@ -297,7 +320,14 @@
 </section>
 
 
-<section class="template-section top2col" id="bestplanes">
+<section class="skew yellowsk skew-cc">
+    
+    
+    
+</section>
+
+
+<section class="template-section upper top2col" id="bestplanes">
     <div class="container">
         <div class="flex">
         
@@ -359,6 +389,13 @@
 </section>
 
 
+<section id="precios-sk" class="skew navybot-sk skew-cc">
+    
+    
+    
+</section>
+
+
 <section class="template-section " id="precios">
     <div class="container">
         <div class="center">
@@ -409,7 +446,14 @@
 </section>
 
 
-<section class="template-section" id="garantia">
+<section id="garantia-sk" class="skew skew-cc">
+    
+    
+    
+</section>
+
+
+<section class="template-section upper" id="garantia">
     <div class="container">
         <div class="flex">
         
@@ -445,7 +489,14 @@
 </section>
 
 
-<section class="template-section top2col" id="inmortaliza">
+<section id="garantia-sk" class="skew darktop-sk skew-cc">
+    
+    
+    
+</section>
+
+
+<section class="template-section top2col upper" id="inmortaliza">
     <div class="container">
        
        
@@ -631,6 +682,45 @@
     
     
 </section>
+
+
+
+
+
+
+
+
+
+<section class="template-section" id="maps">
+    <div class="container">
+         
+         <div class="center">
+             <h2 class="noodle navy">CÓMO LLEGAR</h2>
+             
+               <a href="https://www.google.com/maps/place/Skydive+M%C3%A9xico+-+Paracaidismo+Tequesquitengo/@18.647693,-99.264669,15z/data=!4m2!3m1!1s0x0:0x2be027abb591c6c7?ved=2ahUKEwiX6cfK7p3fAhVLs6wKHfGzDqEQ_BIwFXoECAYQCA" class="social-container twitter" target="_blank">
+                    <div class="social-cube">
+                      <div class="front center">
+                        VER UBICACIÓN EN <br>
+                        GOOGLE MAPS
+                      </div>
+                      <div class="bottom center">
+                         <i class="fas fa-map-marker-alt "></i>
+                      </div>
+                    </div>
+                  </a>
+             
+         </div>
+         
+    </div>
+    
+    
+    
+</section>
+
+
+
+
+
 
 
 

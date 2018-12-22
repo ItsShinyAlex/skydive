@@ -840,10 +840,10 @@ article.selected {
 }
 #tornado-landing .skew-cc {
   width: 100%;
-  height: 160px;
+  height: 200px;
   position: inherit;
   left: 0px;
-  background: linear-gradient(to right bottom, transparent 49%, #1a365b 50%);
+  background: linear-gradient(to right bottom, #1a365b 49%, transparent 50%);
 }
 #tornado-landing .skew-c {
   width: 100%;
@@ -851,6 +851,12 @@ article.selected {
   position: absolute;
   left: 0px;
   background: linear-gradient(to left bottom, #ffffff 49%, #823a9c 50%);
+}
+#tornado-landing .navybot-sk {
+  background: linear-gradient(to right bottom, transparent 49%, #1a365b 50%);
+}
+#tornado-landing .darktop-sk {
+  background: linear-gradient(to right bottom, #002042 49%, transparent 50%);
 }
 #tornado-landing .blue-skew {
   background-color: #1a365b;
@@ -895,6 +901,8 @@ article.selected {
   width: 63%;
 }
 #tornado-landing #tandem {
+  position: relative;
+  z-index: 1;
   background-color: #1a365b;
   background-image: none;
 }
@@ -913,7 +921,22 @@ article.selected {
   background-color: #1a365b !important;
   color: #ffae00 !important;
 }
+#tornado-landing .skew {
+  position: relative;
+  z-index: 3 !important;
+}
+#tornado-landing .upper {
+  position: relative;
+  top: -200px;
+  margin-bottom: -200px;
+}
 #tornado-landing #avientate {
+  z-index: 1 !important;
+  position: relative;
+  top: -200px;
+  margin-bottom: -200px;
+  padding-top: 350px;
+  padding-bottom: 300px;
   background-color: #fbdb00;
   /* Rotate */
 }
@@ -966,9 +989,15 @@ article.selected {
   transform: scale(1.1);
   transition: 0.2s ease-in-out;
 }
+#tornado-landing #why1s,
+#tornado-landing #why1 {
+  position: relative;
+  bottom: 200px;
+}
 #tornado-landing #why1 {
   background-color: #1a365b;
   background-image: none;
+  margin-bottom: -200px;
 }
 #tornado-landing #why1 .flex3 .col {
   transition: 0.2s ease-in-out !important;
@@ -1031,6 +1060,8 @@ article.selected {
   padding-right: 15%;
 }
 #tornado-landing #garantia {
+  padding-top: 340px;
+  padding-bottom: 120px;
   background-color: #002042;
 }
 #tornado-landing #garantia p {
@@ -1039,6 +1070,7 @@ article.selected {
   line-height: 120%;
 }
 #tornado-landing #inmortaliza {
+  padding-top: 210px;
   background-color: #f0682f;
   background-image: none;
 }
