@@ -42,14 +42,7 @@
         </div>
     </div>
     
-    <div class="tobottom">
-        <div class="skew-cc">
 
-        
-        </div>
-        
-    </div>
-    
     
 </section>
 
@@ -80,10 +73,15 @@
                 <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/home/cloudsSatlo.png" alt="Salto desde las nubes">
                 
                 
+                     <p class="onlymov">
+                        Salta con un instructor en un paracaídas especial llamado Tándem y experimenta con seguridad la maravilla de este increíble deporte.
+                    </p>
+                
+                
             </div>
             
             
-            <div class="col left-allign two">
+            <div class="col left-allign two mov-hid">
                     <p>
                         Salta con un instructor en un paracaídas especial llamado Tándem y experimenta con seguridad la maravilla de este increíble deporte.
                     </p>
@@ -389,7 +387,7 @@
 </section>
 
 
-<section id="precios-sk" class="skew navybot-sk skew-cc">
+<section id="precios-sk" class=" upper skew navybot-sk skew-cc">
     
     
     

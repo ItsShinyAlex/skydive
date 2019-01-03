@@ -143,45 +143,7 @@
 
 
 
-////////////////////////// contacto footer ////////////////////////////////////
 
-
-    #contacto-footer{
-        
-        
-        padding: 110px;
-        
-        background: url(../img/footer/back-footer.jpg) center no-repeat;
-        background-size: cover;
-        background-color: @navy;
-        background-attachment: fixed;
-        
-        i{
-            color: yellow;
-        }
-        
-        .col{
-            padding: 20px 100px;
-            width: 50%;
-            
-            p{
-                font-family: 'Avenir';
-                color: white;
-                padding-right: 30%;
-            }
-            
-        }
-        
-        .smallc{
-            width: 5%;
-            padding: 0;
-        }
-        
-        .bigc{
-            padding: 0;
-            width: 94%;
-        }
-    }
 
 
 
@@ -1282,6 +1244,10 @@ h2{
     }
     
     #avientate{
+        
+        background: url(../img/home/back-yellow.jpg) bottom no-repeat;
+        background-repeat: no-repeat;
+        
         z-index: 1 !important;
           position: relative;
            top: -200px;
@@ -1444,6 +1410,10 @@ h2{
     }
     
     #opiniones{
+        height: 2240px;
+        background: url(../img/home/back-opinones.jpg) center no-repeat;
+        background-size: cover;
+        
         p{
             font-size: 32px;
         }
@@ -1672,6 +1642,54 @@ h2{
         
     }
     
+    
+    
+    
+    
+    ////////////////////////// contacto footer ////////////////////////////////////
+
+
+    #contacto-footer{
+        
+        
+        padding: 110px;
+        
+        background: url(../img/footer/back-footer.jpg) center no-repeat;
+        background-size: cover;
+        background-color: @navy;
+        background-attachment: fixed;
+        
+        i{
+            color: yellow;
+            font-size: 17px;
+        }
+        
+        .col{
+            padding: 20px 100px;
+            width: 50%;
+            
+            p{
+                font-family: 'Avenir';
+                color: white;
+                padding-right: 30%;
+                font-size: 18px;
+                line-height: 125%;
+            }
+            
+        }
+        
+        .smallc{
+            width: 7%;
+            padding: 0;
+            padding-top: 5px;
+        }
+        
+        .bigc{
+            padding: 0;
+            width: 92%;
+        }
+    }
+    
   
     
     
@@ -1765,5 +1783,11 @@ h2{
     
     
 
-@import "responsive";
+
 }
+
+.onlymov{
+    display: none;
+}
+
+@import "responsive";
