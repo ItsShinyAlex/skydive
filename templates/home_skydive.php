@@ -99,14 +99,14 @@
     </div>
 </section>
 
-<section class="skew yellowsk skew-cc">
+<section class="skew yellowsk skew-cc mov-hid">
     
     
     
 </section>
 
 
-<section class="template-section" id="avientate">
+<section class="template-section mov-hid" id="avientate">
     <div class="container">
        
        <div class="fcentered">
@@ -203,7 +203,7 @@
 
 
 
-<section id="why1s" class="skew navybot-sk skew-cc">
+<section id="why1s" class="skew navybot-sk skew-cc mov-hid">
     
     
     
@@ -215,7 +215,7 @@
 
 
 
-<section class="template-section top2col" id="why1">
+<section class="mov-hid template-section top2col" id="why1">
     <div class="container">
         <div class="flex">
         
@@ -318,7 +318,12 @@
 </section>
 
 
-<section class="skew yellowsk skew-cc">
+
+
+
+
+
+<section class="skew yellowsk skew-cc mov-hid">
     
     
     
@@ -331,7 +336,7 @@
         
            
            
-            <div class="col left-allign ">
+            <div class="col left-allign mov-hid">
             </div>
             
             <div class="col right-allign">
@@ -354,6 +359,8 @@
     
     
 </section>
+
+
 
 
 <section class="template-section " id="opiniones">
@@ -387,14 +394,14 @@
 </section>
 
 
-<section id="precios-sk" class=" upper skew navybot-sk skew-cc">
+<section id="precios-sk" class="mov-hid upper skew navybot-sk skew-cc">
     
     
     
 </section>
 
 
-<section class="template-section " id="precios">
+<section class="template-section mov-hid " id="precios">
     <div class="container">
         <div class="center">
             <h2 class="gold loved">PAQUETE AVIENTES!</h2>
@@ -444,14 +451,14 @@
 </section>
 
 
-<section id="garantia-sk" class="skew skew-cc">
+<section id="garantia-sk" class="mov-hid skew skew-cc">
     
     
     
 </section>
 
 
-<section class="template-section upper" id="garantia">
+<section class="template-section upper mov-hid" id="garantia">
     <div class="container">
         <div class="flex">
         
@@ -487,14 +494,14 @@
 </section>
 
 
-<section id="garantia-sk" class="skew darktop-sk skew-cc">
+<section id="garantia-sk" class="mov-hid skew darktop-sk skew-cc">
     
     
     
 </section>
 
 
-<section class="template-section top2col upper" id="inmortaliza">
+<section class="template-section top2col upper mov-hid" id="inmortaliza">
     <div class="container">
        
        
@@ -689,7 +696,7 @@
 
 
 
-<section class="template-section" id="maps">
+<section class="template-section mov-hid" id="maps">
     <div class="container">
          
          <div class="center">
