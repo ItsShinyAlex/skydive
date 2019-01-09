@@ -23,7 +23,17 @@
                     
                 <p class="">Disfruta de nuestras salidas en Perisur los Sábados y Domingos a las 8 AM.</p>
                 <p class="mar-bot">Viaje redondo: $420</p>
-                <a href="" class="orangeb btn-new">RESERVAR</a>
+                
+                <a href="https://skydivemexico.mx/transporte/" class="social-container twitter" target="_blank">
+                    <div class="social-cube">
+                      <div class="front center">
+                        RESERVAR
+                      </div>
+                      <div class="bottom center ">
+                         <i class="fas fa-bus-alt"></i>
+                      </div>
+                    </div>
+                  </a>
                 
             </div>
         </div>

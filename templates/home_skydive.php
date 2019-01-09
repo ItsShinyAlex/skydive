@@ -4,7 +4,22 @@
 ?>
 <div id="tornado-landing">
 
-<section class="template-section top2col" id="home-banner">
+
+<section class="top2col" id="home-banner2">
+
+
+     <?php //putRevSlider("newhome", "home_skydive.php"); ?>
+
+    
+</section>
+
+<section id="botslider" class="skew navybot-sk skew-cc mov-hid">
+    
+    
+    
+</section>
+
+<section class="template-section top2col hide" id="home-banner">
     <div class="container">
         <div class="flex">
         
@@ -46,7 +61,7 @@
     
 </section>
 
-<section class="template-section top2col blue-skew" id="tandem">
+<section class="upper template-section top2col blue-skew" id="tandem">
     <div class="container">
         <div class="flex">
         
@@ -179,7 +194,7 @@
             </div>
            
            
-           <a href="https://www.google.com/maps/place/Skydive+M%C3%A9xico+-+Paracaidismo+Tequesquitengo/@18.647693,-99.264669,15z/data=!4m2!3m1!1s0x0:0x2be027abb591c6c7?ved=2ahUKEwiX6cfK7p3fAhVLs6wKHfGzDqEQ_BIwFXoECAYQCA" class="social-container twitter" target="_blank">
+           <a href="#precios" class="social-container twitter">
                     <div class="social-cube">
                       <div class="front center navy-back">
                         QUIERO SALTAR
@@ -336,7 +351,8 @@
         
            
            
-            <div class="col left-allign mov-hid">
+            <div class="col mov-hid" id="cutplane">
+            <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/home/plane.png" alt="Avioneta de SkyDive">
             </div>
             
             <div class="col right-allign">
@@ -374,7 +390,7 @@
             </div>
             
             
-            <a href="https://www.google.com/maps/place/Skydive+M%C3%A9xico+-+Paracaidismo+Tequesquitengo/@18.647693,-99.264669,15z/data=!4m2!3m1!1s0x0:0x2be027abb591c6c7?ved=2ahUKEwiX6cfK7p3fAhVLs6wKHfGzDqEQ_BIwFXoECAYQCA" class="social-container twitter" target="_blank">
+            <a href="#precios" class="social-container twitter" >
                     <div class="social-cube">
                       <div class="front center navy-back">
                         QUIERO SALTAR
@@ -405,6 +421,180 @@
     <div class="container">
         <div class="center">
             <h2 class="gold loved">PAQUETE AVIENTES!</h2>
+               
+               <div id="packs" class="flex">
+                   <div id="p1" class="col center">
+                       
+                       <div  class="pack-img">
+                        
+                       </div>
+                       
+                       
+                       <div class="bigfirst botborder">
+                           
+                           <h3>PAQUETE 1</h3>
+                           <h4>17,000ft. SMN</h4>
+                           <h5>INCLUYE</h5>
+                           <p>1 MIN. DE CAÍDA LIBRE </p>
+                           <p class="orange">+</p>
+                           <p>2 MINS. DE CAÍDA LIBRE 
+                            EN EL TUNEL DE VIENTO</p>
+
+                            <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/home/tornado.png" alt="TORNADO">
+                           
+                           
+                       </div>
+                       
+                       <div class="botborder">
+                           <p>
+                                CON RESERVACIÓN Y
+                                ANTICIPO DE $500 PESOS
+                           </p>
+                       </div>
+                       
+                       <div class="botborder">
+                           <p>LUNES A DOMINGO </p>
+                           <p class="price orange">$2,000.00</p>
+                           <p><b>POR PERSONA</b></p>
+                       </div>
+                       
+                       <div class="last-div">
+                           <p>PESO MÁXIMO 90KG</p>
+                       </div>
+                       
+                       
+                       
+                   </div>
+                   <div id="p2" class="col center">
+                       
+                       <div  class="pack-img">
+                           
+                       </div>
+                       
+                       
+                       <div class="bigfirst botborder">
+                           
+                           <h3>PAQUETE 2</h3>
+                           <h4>13,000ft. SMN</h4>
+                           <h5>INCLUYE</h5>
+                           <p>35 SEG. DE CAÍDA LIBRE </p>
+                           <p class="orange">+</p>
+                           <p>2 MINS. DE CAÍDA LIBRE 
+                            EN EL TUNEL DE VIENTO</p>
+
+                            <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/home/tornado.png" alt="TORNADO">
+                           
+                           
+                       </div>
+                       
+                       <div class="botborder">
+                           <p>
+                                CON RESERVACIÓN Y
+                                ANTICIPO DE $500 PESOS
+                           </p>
+                       </div>
+                       
+                       <div class="botborder">
+                           <p>LUNES A DOMINGO </p>
+                           <p class="price orange">$1,800.00</p>
+                           <p><b>POR PERSONA</b></p>
+                       </div>
+                       
+                       <div class="last-div">
+                           <p>PESO MÁXIMO 90KG</p>
+                       </div>
+                       
+                       
+                       
+                   </div>
+                   <div id="p3" class="col center">
+                       
+                       <div  class="pack-img">
+                           
+                       </div>
+                       
+                       
+                       <div class="bigfirst botborder">
+                           
+                           <div class="fcentered">
+                               <h3>PAQUETE 3</h3>
+                               <h4>17,000ft. SMN <br> 
+                               (5.18 KM)</h4>
+                               
+                           </div>
+                           
+                           
+                           
+                       </div>
+                       
+                       <div class="botborder">
+                           <p>
+                                CON RESERVACIÓN Y
+                                ANTICIPO DE $500 PESOS
+                           </p>
+                       </div>
+                       
+                       <div class="botborder">
+                           <p>LUNES A DOMINGO </p>
+                           <p class="price orange">$1,750.00</p>
+                           <p><b>POR PERSONA</b></p>
+                       </div>
+                       
+                       <div class="last-div">
+                           <p>PESO MÁXIMO 90KG</p>
+                       </div>
+                       
+                       
+                       
+                   </div>
+                   <div id="p4" class="col center">
+                       
+                       <div  class="pack-img">
+                           
+                       </div>
+                       
+                       
+                       <div class="bigfirst botborder">
+                           
+                           <div class="fcentered">
+                               <h3>PAQUETE 4</h3>
+                               <h4>13,000ft. SMN <br> 
+                               (3.96 KM)</h4>
+                               
+                           </div>
+                           
+                           
+                       </div>
+                       
+                       <div class="botborder">
+                           <p>
+                                CON RESERVACIÓN Y
+                                ANTICIPO DE $500 PESOS
+                           </p>
+                       </div>
+                       
+                       <div class="botborder">
+                           <p>LUNES A DOMINGO </p>
+                           <p class="price orange">$1,500.00</p>
+                           <p><b>POR PERSONA</b></p>
+                       </div>
+                       
+                       <div class="last-div">
+                           <p>PESO MÁXIMO 90KG</p>
+                       </div>
+                       
+                       
+                       
+                   </div>
+               </div>
+               
+               
+               <div class="orangebox">
+                   <h3>COSTO PARA GRUPOS</h3>
+                   <p>Saltando a 17 mil pies, DE 11 PERSONAS EN ADELANTE EL DOCEAVO (EL ORGANIZADOR) OBTENDRÁ SALTO Y VÍDEO GRATIS. 
+                    </p>
+               </div>
+               
                 
                 <h3 class="gold"> <b>CONDICIONES DE SEGURIDAD</b></h3>
                 <div class="flex">
@@ -431,16 +621,18 @@
                     
                 </div>
                 
-                     <a href="https://www.google.com/maps/place/Skydive+M%C3%A9xico+-+Paracaidismo+Tequesquitengo/@18.647693,-99.264669,15z/data=!4m2!3m1!1s0x0:0x2be027abb591c6c7?ved=2ahUKEwiX6cfK7p3fAhVLs6wKHfGzDqEQ_BIwFXoECAYQCA" class="social-container twitter" target="_blank">
+                     <a href="https://skydivemexico.mx/promociones/" class="social-container twitter" target="_blank">
                     <div class="social-cube">
                       <div class="front center">
-                        RESRERVA AQUÍ
+                        RESERVA AQUÍ
                       </div>
                       <div class="bottom center">
                          <i class="fas fa-calendar-check"></i>
                       </div>
                     </div>
                   </a>
+                  
+           
                 
             
         </div>
@@ -667,10 +859,10 @@
         
         <div class="fcentered">
             
-              <a href="https://www.google.com/maps/place/Skydive+M%C3%A9xico+-+Paracaidismo+Tequesquitengo/@18.647693,-99.264669,15z/data=!4m2!3m1!1s0x0:0x2be027abb591c6c7?ved=2ahUKEwiX6cfK7p3fAhVLs6wKHfGzDqEQ_BIwFXoECAYQCA" class="social-container twitter" target="_blank">
+              <a href="https://skydivemexico.mx/promociones/" class="social-container twitter" target="_blank">
                     <div class="social-cube">
                       <div class="front center">
-                        RESRERVA AQUÍ
+                        RESERVA AQUÍ
                       </div>
                       <div class="bottom center dark-back">
                          <i class="fas fa-calendar-check"></i>
@@ -741,7 +933,7 @@
                <div class="mask pseudo fcentered">
                    
                    
-                  <a href="">
+                  <a href="#why1">
         
                            <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/home/liderMUNDIALno.png" alt="Líder Mundial en saltos Tandem">
                     

@@ -17,14 +17,34 @@
   font-weight: normal;
   font-style: normal;
 }
-#menu-item-20 {
+@font-face {
+  font-family: 'AvenirNext bold';
+  src: url('fonts/AvenirNextLTPro-Bold.woff') format('woff'), url('fonts/AvenirNextLTPro-Bold.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Avenir heavy';
+  src: url('fonts/AvenirNextLTPro-HeavyCn.woff') format('woff'), url('fonts/AvenirNextLTPro-HeavyCn.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Avenir demi';
+  src: url('AvenirNextLTPro-Demi.woff') format('woff'), url('AvenirNextLTPro-Demi.woff') format('woff');
+  font-weight: bold;
+  font-style: normal;
+}
+#menu-item-20,
+#menu-item-49 {
   background: url(../img/blueFondo.jpg) center no-repeat;
   height: 130px;
   background-size: cover;
   position: relative;
-  bottom: 14px;
+  bottom: 15px;
 }
-#menu-item-20 .menu-item-link {
+#menu-item-20 .menu-item-link,
+#menu-item-49 .menu-item-link {
   position: relative;
   bottom: -14px;
   color: #e5c013 !important;
@@ -36,14 +56,16 @@
 .a-sticky .menu-hover-style-5 .main-navigation-ul > li {
   width: 100px !important;
 }
-.a-sticky #menu-item-20 {
+.a-sticky #menu-item-20,
+.a-sticky #menu-item-49 {
   background: none;
   height: 130px;
   background-size: cover;
   position: relative;
   bottom: 0px;
 }
-.a-sticky #menu-item-20 .menu-item-link {
+.a-sticky #menu-item-20 .menu-item-link,
+.a-sticky #menu-item-49 .menu-item-link {
   position: relative;
   bottom: 0px;
   color: black !important;
@@ -236,6 +258,9 @@ article.selected {
   100% {
     transform: rotate(90deg);
   }
+}
+.hide {
+  display: none;
 }
 #tornado-landing {
   /*------------------*/
@@ -841,6 +866,18 @@ article.selected {
   background-color: #1a365b;
   color: #ffae00;
 }
+#tornado-landing #botslider {
+  bottom: 260px;
+}
+#tornado-landing #home-banner2 {
+  background: none;
+}
+#tornado-landing #home-banner2 .normal {
+  color: black;
+}
+#tornado-landing #home-banner2 .white {
+  color: white !important;
+}
 #tornado-landing #home-banner {
   background: url(../img/home/banner.jpg) center no-repeat;
   background-size: cover;
@@ -974,6 +1011,18 @@ article.selected {
   background-image: none;
   margin-bottom: -200px;
 }
+#tornado-landing #why1 .col {
+  padding-right: 0%;
+}
+#tornado-landing #why1 .col h2 {
+  padding: 0 6%;
+}
+#tornado-landing #why1 .col h2 .noodle {
+  line-height: 120% !important;
+}
+#tornado-landing #why1 .col h2 .loved {
+  line-height: 120% !important;
+}
 #tornado-landing #why1 .flex3 .col {
   transition: 0.2s ease-in-out !important;
   text-align: center;
@@ -1002,8 +1051,24 @@ article.selected {
   text-align: right;
 }
 #tornado-landing #bestplanes {
+  min-height: 0;
   background-color: #ffae00;
   background-image: none;
+}
+#tornado-landing #bestplanes .container {
+  margin: 0;
+  max-width: 100%;
+}
+#tornado-landing #bestplanes .small,
+#tornado-landing #bestplanes .normal {
+  padding-right: 3.3%;
+}
+#tornado-landing #bestplanes #cutplane {
+  margin-bottom: -5px;
+  padding: 0;
+}
+#tornado-landing #bestplanes #cutplane img {
+  width: 100%;
 }
 #tornado-landing #bestplanes p,
 #tornado-landing #bestplanes h2 {
@@ -1024,6 +1089,7 @@ article.selected {
   padding-left: 18%;
 }
 #tornado-landing #opiniones {
+  padding-top: 280px;
   height: 2240px;
   background: url(../img/home/back-opinones.jpg) center no-repeat;
   background-size: cover;
@@ -1034,10 +1100,116 @@ article.selected {
 #tornado-landing #precios {
   background-color: #1a365b;
 }
+#tornado-landing #precios .fcentered {
+  flex-direction: column;
+  min-height: 180px;
+}
+#tornado-landing #precios h2 {
+  margin-bottom: 120px;
+}
 #tornado-landing #precios .small {
   font-size: 18px;
   text-align: left;
   padding-right: 15%;
+  margin-top: 40px;
+  margin-bottom: 80px;
+}
+#tornado-landing #precios #p1 .pack-img {
+  background: url(../img/home/1.jpg) center no-repeat;
+  background-size: cover;
+  height: 205px !important;
+}
+#tornado-landing #precios #p2 .pack-img {
+  background: url(../img/home/2.jpg) center no-repeat;
+  background-size: cover;
+  height: 205px !important;
+}
+#tornado-landing #precios #p3 .pack-img {
+  background: url(../img/home/3.jpg) center no-repeat;
+  background-size: cover;
+  height: 205px !important;
+}
+#tornado-landing #precios #p4 .pack-img {
+  background: url(../img/home/4.jpg) center no-repeat;
+  background-size: cover;
+  height: 205px !important;
+}
+#tornado-landing #precios #packs {
+  margin-bottom: 100px;
+}
+#tornado-landing #precios #packs .botborder {
+  padding: 25px 20%;
+}
+#tornado-landing #precios #packs .col {
+  height: 900px;
+  width: 25%;
+  padding: 0;
+  margin: 0;
+  background-color: #e2e2e2;
+  transition: 0.3s all;
+}
+#tornado-landing #precios #packs .col .botborder {
+  border-bottom: solid white 2px;
+  transition: 0.3s all;
+}
+#tornado-landing #precios #packs .col:hover {
+  transform: scale(1.1);
+  transition: 0.3s all;
+  background-color: white;
+  box-shadow: -3px 15px 28px black;
+}
+#tornado-landing #precios #packs .col:hover .botborder {
+  border-bottom: solid #d1cece 2px;
+  transition: 0.3s all;
+}
+#tornado-landing #precios #packs .col .price {
+  font-family: 'Avenir heavy';
+  font-weight: 900;
+  font-size: 36px;
+}
+#tornado-landing #precios #packs .col h3 {
+  font-family: 'AvenirNext bold';
+  font-weight: 900;
+  color: black;
+  margin: 0;
+}
+#tornado-landing #precios #packs .col h4 {
+  font-family: 'Avenir heavy';
+  color: #f0682f;
+  font-weight: 900;
+  margin: 0;
+  margin-bottom: 20px;
+}
+#tornado-landing #precios #packs .col h5 {
+  color: black;
+  font-weight: 600;
+  margin: 0;
+}
+#tornado-landing #precios #packs .col p {
+  font-size: 14px;
+  margin: 0;
+  font-weight: 600;
+}
+#tornado-landing #precios #packs .col p b {
+  font-weight: 500;
+  font-family: 'Avenir heavy';
+}
+#tornado-landing #precios #packs .col .last-div {
+  padding-top: 40px;
+}
+#tornado-landing #precios .orangebox {
+  margin-bottom: 180px;
+  padding: 40px 50px;
+  background-color: #f0682f;
+}
+#tornado-landing #precios .orangebox h3 {
+  font-weight: 900;
+  color: #1a365b;
+  font-size: 28px;
+}
+#tornado-landing #precios .orangebox p {
+  text-transform: uppercase;
+  font-size: 18px;
 }
 #tornado-landing #garantia {
   padding-top: 340px;
@@ -1048,6 +1220,13 @@ article.selected {
   color: white;
   font-size: 24px;
   line-height: 120%;
+}
+#tornado-landing #garantia img {
+  transition: 0.3s all;
+}
+#tornado-landing #garantia img:hover {
+  transition: 0.3s all;
+  transform: scale(1.2) !important;
 }
 #tornado-landing #inmortaliza {
   padding-top: 210px;

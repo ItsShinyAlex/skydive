@@ -31,6 +31,32 @@
     font-style: normal;
 }
 
+@font-face {
+    font-family: 'AvenirNext bold';
+    src: url('fonts/AvenirNextLTPro-Bold.woff') format('woff'),
+        url('fonts/AvenirNextLTPro-Bold.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Avenir heavy';
+    src: url('fonts/AvenirNextLTPro-HeavyCn.woff') format('woff'),
+        url('fonts/AvenirNextLTPro-HeavyCn.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Avenir demi';
+    src: url('AvenirNextLTPro-Demi.woff') format('woff'),
+        url('AvenirNextLTPro-Demi.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+}
+
+
+
 //header ------------------------------------------------------
 
 
@@ -39,13 +65,13 @@
 
 
 
-#menu-item-20{
+#menu-item-20, #menu-item-49{
     //transition: 0.2s;
     background: url(../img/blueFondo.jpg) center no-repeat;
     height: 130px;
     background-size: cover;
     position: relative;
-    bottom: 14px;
+    bottom: 15px;
     
     .menu-item-link{
         position: relative;
@@ -69,7 +95,7 @@
         } 
         
         
-        #menu-item-20{
+        #menu-item-20, #menu-item-49{
             background: none;
             height: 130px;
             background-size: cover;
@@ -344,7 +370,9 @@ border-bottom: 2px;
     
 
 
-
+.hide{
+    display: none;
+}
 
 
 
@@ -1156,6 +1184,25 @@ h2{
         color: @gold;
     }
     
+    #botslider{
+        bottom: 260px;
+    }
+    
+    #home-banner2{
+        background: none;
+        
+     
+        .normal{
+              
+            color: black;
+        }
+        
+           .white{
+            color: white !important;
+        }
+        
+    }
+    
     #home-banner{
         background: url(../img/home/banner.jpg) center no-repeat;
         background-size: cover;
@@ -1338,6 +1385,27 @@ h2{
         background-image: none;
         margin-bottom: -200px;
         
+        .col{
+            padding-right: 0%;
+            
+            h2{
+                padding: 0 6%;
+                .noodle{
+                    line-height: 120% !important;
+                }
+                
+                .loved{
+                    line-height: 120% !important;
+                }
+                
+                .normal{
+                  
+
+                }
+            }
+            
+        }
+        
         .flex3{
             
             
@@ -1383,6 +1451,23 @@ h2{
     }
     
     #bestplanes{
+        min-height: 0;
+        .container{
+            margin: 0;
+            max-width: 100%;
+        }
+        
+        .small, .normal{
+            padding-right: 3.3%;
+        }
+        #cutplane{
+            margin-bottom: -5px;
+            padding: 0;
+            img{
+                  width: 100%;  
+            }
+        }
+        
         background-color: @gold;
         background-image: none;
         p, h2{
@@ -1407,9 +1492,14 @@ h2{
             
 
         }
+        
+        
+        
     }
     
     #opiniones{
+        
+        padding-top: 280px;
         height: 2240px;
         background: url(../img/home/back-opinones.jpg) center no-repeat;
         background-size: cover;
@@ -1421,11 +1511,166 @@ h2{
     
     #precios{
         background-color: @navy;
+        
+        .fcentered{
+            flex-direction: column;
+            min-height: 180px;
+        }
+        
+        h2{
+            margin-bottom: 120px;
+        }
+        
         .small{
             font-size: 18px;
             text-align: left;
             padding-right: 15%;
+            margin-top: 40px;
+            margin-bottom: 80px;
         }
+        
+          #p1{
+                    .pack-img{
+                        background: url(../img/home/1.jpg) center no-repeat;
+                        background-size: cover;
+                        height: 205px !important;
+                    }
+              
+              
+                }
+        
+        #p2{
+                    .pack-img{
+                        background: url(../img/home/2.jpg) center no-repeat;
+                        background-size: cover;
+                        height: 205px !important;
+                    }
+              
+              
+                }
+        
+        #p3{
+                    .pack-img{
+                        background: url(../img/home/3.jpg) center no-repeat;
+                        background-size: cover;
+                        height: 205px !important;
+                    }
+              
+              
+                }
+        
+        #p4{
+                    .pack-img{
+                        background: url(../img/home/4.jpg) center no-repeat;
+                        background-size: cover;
+                        height: 205px !important;
+                    }
+              
+              
+                }
+        
+        #packs{
+            
+            margin-bottom: 100px;
+            
+            .botborder{
+                  padding: 25px 20%;
+              }
+            
+            
+            .col{
+                
+                height: 900px;
+                width: 25%;
+                padding: 0;
+                margin: 0;
+                background-color: #e2e2e2;
+                 transition: 0.3s all;
+                
+                
+                .botborder{
+                border-bottom: solid white 2px;
+                    transition: 0.3s all;
+                }
+                
+                &:hover{
+                    transform: scale(1.1);
+                    transition: 0.3s all;
+                     background-color: white;
+                    box-shadow: -3px 15px 28px black ;
+                    
+                    .botborder{
+                        border-bottom: solid #d1cece 2px;
+                        transition: 0.3s all;
+                    }
+                    
+                    
+                }
+                
+                .price{
+                    font-family: 'Avenir heavy';
+                    font-weight: 900;
+                    font-size: 36px;
+                }
+              
+                
+                
+                
+                h3{
+                    font-family: 'AvenirNext bold';
+                    font-weight: 900;
+                    color: black;
+                    margin: 0;
+                }
+                
+                h4{
+                    font-family: 'Avenir heavy';
+                    
+                    color: @orange;
+                    font-weight: 900; 
+                    margin: 0;
+                    margin-bottom: 20px;
+                }
+                h5{
+                    color: black;
+                    font-weight: 600;
+                    margin: 0;
+                }
+                p{
+                    font-size: 14px;
+                    margin: 0;
+                    font-weight: 600;
+                    
+                    b{
+                        font-weight: 500;
+                        font-family: 'Avenir heavy';
+                    }
+                }
+                
+                
+                .last-div{
+                    padding-top: 40px;
+                }
+                
+            }
+        }
+        
+        .orangebox{
+            margin-bottom: 180px;
+            padding: 40px 50px;
+            background-color: @orange;
+            h3{
+                font-weight: 900;
+                color: @navy;
+                font-size: 28px;
+            }
+            
+            p{
+                text-transform: uppercase;
+                font-size: 18px;
+            }
+        }
+        
     }
     
     #garantia{
@@ -1438,6 +1683,15 @@ h2{
             color: white;
             font-size: 24px;
             line-height: 120%;
+        }
+        
+        img{
+            transition: 0.3s all;
+            &:hover{
+                transition: 0.3s all;
+            transform: scale(1.2) !important;
+            }
+            
         }
     }
     

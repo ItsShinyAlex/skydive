@@ -72,7 +72,7 @@
                         
                         <p>Seguir 300 metros más y al lado derecho encontrarás un letrero que dice “CENTRO DE PARACAIDISMO”. Justo frente al letrero, girar hacia la izquierda por una calle angosta y después de 100 mts. se llega al Centro de Paracaidismo, “El lugar donde vivirás una de las mejores experiencias de tu vida”</p>
                         
-                          <a href="" class="btn-new orangeb" target="_blank" >INICIAR NAVEGACIÓN GPS</a>
+                          <a href="https://www.google.com/maps/dir//Skydive+M%C3%A9xico+-+Paracaidismo+Tequesquitengo,+Emiliano+Zapata+19,+62680+San+Jos%C3%A9+Vista+Hermosa,+Mor./@18.647693,-99.264669,15z/data=!4m16!1m6!3m5!1s0x0:0x2be027abb591c6c7!2sSkydive+M%C3%A9xico+-+Paracaidismo+Tequesquitengo!8m2!3d18.647693!4d-99.264669!4m8!1m0!1m5!1m1!1s0x85cdd46cd07c4001:0x2be027abb591c6c7!2m2!1d-99.264669!2d18.647693!3e2" class="btn-new orangeb" target="_blank" >INICIAR NAVEGACIÓN GPS</a>
 
                           
                         </div>
