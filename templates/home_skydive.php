@@ -385,6 +385,21 @@
             <h2 class="orange loved">OPINIONES</h2>
             <p class="black">de quienes se han aventado</p>
             
+            <div class="flex">
+                <div class="col fcentered">
+                    
+                            <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/home/facelike.png" alt="Calificación del sitio en facebook 4.7">
+                    
+                </div>
+                <div class="col fcentered">
+    
+                    
+                            <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/home/googlerate.png" alt="Calificación del lugar en google 4.8">
+             
+                </div>
+            </div>
+            
+            
             <div id="oplugin">
                 
             </div>

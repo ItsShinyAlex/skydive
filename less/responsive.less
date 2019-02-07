@@ -2,7 +2,7 @@
 
 @media screen and (max-width:650px){
        .onlymov{
-            display: flex;
+            display: flex !important;
         }
     
     
@@ -850,6 +850,43 @@ p{
     
     //HOMEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEE
     
+    #home-banner2{
+        //position: relative;
+        //z-index: 666;
+        min-height: 300px;
+        
+           btn-new, .bluebtn{
+            background-color: @navy !important;
+            color: @gold !important;
+           }
+        
+        p, h1, h2, a{
+            text-align: center !important;
+        }
+        
+        h2, .normal{
+            font-weight: 400 !important;
+            font-size: 18px !important;
+            line-height: 105% !important;
+        }
+        
+        .btn-new{
+            width: 200px !important;
+            max-width: 200px !important;
+            font-weight: 600 !important;
+        }
+        
+        .big{
+            font-size: 26px !important;
+            
+        }
+        
+        .loved{
+            font-size: 38px !important;
+        }
+        
+    }
+    
     
     //COMO LLEGAR ---------------------------------------------------------------------------------------------------------
     
@@ -1088,8 +1125,10 @@ p{
     
     
         #tandem{
-           min-height: 810px;
             
+           min-height: 810px;
+            top: 50px;
+            margin-bottom: 0;
             .col{
                 width: 100%;
                 padding-right: 20px;
@@ -1154,12 +1193,37 @@ p{
     }
     
     #opiniones{
-        height: 1137px;
+        height: 1230px;
         background: url(../img/home/back-movilOPINIONES.png) center no-repeat;
         background-size: cover;
         
+        padding-top: 80px;
+        
         p{
             font-size: 20px;
+        }
+        
+        
+         .flex{
+            padding-top: 20px;
+            
+            padding-bottom: 0;
+             
+             .col{
+                 padding-bottom: 30px;
+                 width: 50% !important;
+                     
+             }
+            
+            img{
+                width: 80%;
+            }
+        }
+        
+        #oplugin{
+            width: 80%;
+            margin: auto;
+            padding-bottom: 50px;
         }
     }
     
