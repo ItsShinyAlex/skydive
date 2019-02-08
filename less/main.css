@@ -35,6 +35,18 @@
   font-weight: bold;
   font-style: normal;
 }
+@font-face {
+  font-family: 'BigNoodleTitling';
+  src: url('BigNoodleTitling-Oblique.woff2') format('woff2'), url('BigNoodleTitling-Oblique.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'BigNoodleTitling';
+  src: url('BigNoodleTitling.woff2') format('woff2'), url('BigNoodleTitling.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
 #menu-item-20,
 #menu-item-49 {
   background: url(../img/blueFondo.jpg) center no-repeat;
@@ -1535,6 +1547,145 @@ article.selected {
 }
 .onlymov {
   display: none !important;
+}
+/********CURSO********/
+.curso .template-section {
+  padding: 50px 0px;
+}
+.curso .template-section h2 {
+  font-size: 76px;
+  font-family: 'BigNoodleTitling';
+  text-align: center;
+  color: #f5ac0e;
+}
+.curso .template-section h2 .amarillo {
+  color: #fbdb00;
+}
+.curso .template-section h2 .azul {
+  color: #003463;
+}
+.curso .template-section p {
+  font-family: 'Avenir';
+  color: white;
+  font-size: 1.4em;
+}
+.curso .template-section p .azul {
+  color: #003463;
+}
+.curso .template-section h3 {
+  color: #f5ac0e;
+  font-family: 'Avenir';
+  font-size: 2.0em;
+}
+.curso .template-section .container {
+  max-width: 1100px;
+  width: 100%;
+  margin: 0 auto;
+}
+.curso .template-section .btn-new {
+  display: inline-block;
+  font-family: 'Avenir';
+  background-color: #ffae00;
+  color: #1a365b;
+  box-shadow: -8px 7px 5px #1a365b;
+  padding: 12px 30px;
+  font-size: 28px;
+  text-align: center;
+  transition: 0.3s all !important;
+}
+.curso .template-section .btn-new:hover {
+  box-shadow: -8px 7px 5px #1a365b;
+  transform: scale(1.1) !important;
+  transition: 0.3s all !important;
+  color: #1a365b;
+}
+.curso .template-section .grid {
+  display: flex;
+  flex-wrap: wrap;
+}
+.curso .template-section .grid .col {
+  width: 50%;
+}
+.curso #slider_academia {
+  margin-top: -20px;
+  padding: 300px 0px;
+  background: url(../img/academia/slider.png) no-repeat center;
+  background-color: #003463;
+  text-align: center;
+}
+.curso #slider_academia h2,
+.curso #slider_academia h3,
+.curso #slider_academia p {
+  text-shadow: 1px 1px rgba(0, 0, 0, 0.6);
+}
+.curso #slider_academia p,
+.curso #slider_academia h3 {
+  max-width: 400px;
+  position: relative;
+  margin: 0 auto;
+}
+.curso #slider_academia .btn-new {
+  margin-top: 30px;
+}
+.curso #niveles {
+  background-color: #003463;
+}
+.curso #niveles h2 {
+  color: white;
+}
+.curso #niveles .col2 {
+  width: 25%;
+}
+.curso #precio {
+  text-align: center;
+  margin-top: -317px;
+  background-color: #003463;
+  padding: 207px 0px;
+  margin-left: -94px;
+}
+.curso #precio h2 {
+  margin-top: 317px;
+  color: #003463;
+}
+.curso #precio table {
+  font-family: 'Avenir';
+}
+.curso #precio table th {
+  background-color: #003463;
+  color: white;
+  text-transform: capitalize;
+}
+.curso #precio table .azul {
+  background-color: #003463;
+  color: white;
+}
+.curso #precio table .amarillo {
+  background-color: transparent;
+  color: #003463;
+}
+.curso #precio table .rojo {
+  background-color: #cd1719;
+  color: white;
+  font-weight: bold;
+}
+.curso #precio .btn-new {
+  background-color: #003463;
+  color: #fbdb00;
+  box-shadow: -8px 7px 5px black;
+}
+.curso #precio:hover {
+  box-shadow: -8px 7px 5px black;
+  color: #fbdb00;
+}
+@media screen and (max-width: 1400px) {
+  #precio {
+    background: url(../img/academia/precio2.png) no-repeat;
+  }
+}
+@media screen and (min-width: 1400px) {
+  #precio {
+    background: url(../img/academia/precio.png) no-repeat;
+  }
 }
 @media screen and (max-width: 650px) {
   .onlymov {
