@@ -7,6 +7,7 @@
 @yellow2: #f5ac0e;
 @blue: #003463;
 @red: #cd1719;
+@red2: #ff0000;
 
 
 @font-face {
@@ -2147,7 +2148,7 @@ h2{
                 color: @blue;
             }
         }
-        p {
+        p, ul {
               font-family: 'Avenir';
             color: white;
              font-size: 1.4em;
@@ -2222,12 +2223,56 @@ h2{
             color: white;
         }
         .col2 {
-            width: 25%;
+               width: 20%;
+    border: 3px solid white;
+    border-radius: 8px;
+    margin-top: 10px;
+    margin-left: 30px;
+    margin-right: 25px;
+            background-color: @yellow;
+            
         }
+        h3 {
+            text-align: center;
+            color: @blue;
+            font-weight: bold;
+        }
+        hr {
+                border: 2px solid @blue;
+        }
+        p {
+            color: @blue;
+            text-align: center;
+                margin-left: 10px;
+    margin-right: 10px;
+            
+        }
+        .programa {
+            background-color: @red2;
+            p {
+                margin-top: 10px;
+                 font-family: 'BigNoodleTitling';
+                color: white;
+                font-size: 30px;
+                font-weight: normal;
+                line-height: 1;
+                span {
+                    font-weight: bold;
+                        font-size: 65px;
+                        display: block;
+                }
+                &.mayores{ 
+                color: @yellow;
+                    font-size: 25px;
+                }
+            }
+        }
+        
     }
     #precio {
             text-align: center;
     margin-top: -317px;
+       
     background-color: @blue;
     padding: 207px 0px;
     margin-left: -94px;
@@ -2236,6 +2281,7 @@ h2{
             color: @blue;
         }
         table {
+            font-size: 1.4em;
              font-family: 'Avenir';
             th {
                 background-color: @blue;
@@ -2269,8 +2315,215 @@ h2{
            
             color: @yellow;
         }
+        p {
+                max-width: 700px;
+    position: relative;
+    display: block;
+    text-align: center;
+    margin: auto;
+            margin-top: 30px;
+                margin-bottom: 30px;
+            color: @blue;
+        }
+    }
+    #iniciar {
+         background: url(../img/academia/iniciar.png) no-repeat center;
+                padding: 250px 0px;
+        h2 {
+            color: @yellow;
+                margin-top: -211px;
+        }
+        p {
+                display: block;
+    max-width: 600px;
+    margin: auto;
+    text-align: center;
+                margin-bottom: 20px;
+        }
+    }
+    #horario {
+         background: url(../img/academia/horario.png) no-repeat center;
+        h2 {
+            color: @blue;
+        }
+        p {
+             color: @blue;
+        }
+        img {
+            width: 100%;
+        }
+        .container {
+    max-width: 900px;
+        }
+    }
+    #contamos {
+        background-color: @blue;
+        text-align: center;
+        .col2 {
+            width: 25%;
+        }
+        h2 {
+            color: @yellow;
+        }
+    }
+    #aviones {
+         background: url(../img/academia/aviones.png) no-repeat center;
+        text-align: center;
+        h2 {
+            color: @blue;
+        }
+        p {
+            color: @blue;
+                display: block;
+    max-width: 700px;
+    margin: auto;
+        }
     }
     
+    
+     #faq-arrive{
+         h2 {
+             color: @blue;
+         }
+        
+            position: relative;
+            z-index: 2;
+            top: -240px;
+            margin-bottom: -240px;
+            min-height: 1100px;
+            background-size: cover;
+        
+        
+            .container{
+            position: relative;
+            top: 360px;
+
+            }
+        
+        .bdark{
+            background-color: @dark;
+             &:hover{
+                //background-color: @orange !important;
+            }
+        }
+        
+        .bnavy{
+            background-color: @navy;
+        }
+        
+        article{
+            border: solid white 0px !important;
+             &:hover{
+                //background-color: @orange !important;
+            }
+            
+            p{
+                font-size: 18px;
+                line-height: 120%;
+                color: @blue;
+            }
+        }
+        
+        .content{
+            background-color: #f5f5f6;
+        }
+        
+        h4{
+            font-family: 'BigNoodleTitling';
+            font-size: 33px;
+            
+        }
+        
+        .effect:before, .effect:after{
+            color: @gold !important;
+            width: 25px;
+            font-weight: 600;
+            height: 6px;
+            background: @gold;
+        }
+        
+        
+        
+        .btn-new{
+            margin: 0 0 60px 3%;
+            box-shadow: -5px 6px 0px black;
+            &:hover{
+                background-color: @orange;
+                color: #f5f5f6;
+            }
+            
+        }
+    }
+    
+    #experimentados {
+        background-color: @blue;
+        h2 {
+            color: @yellow;
+        }
+        
+        p, ul {
+            display: block;
+    max-width: 800px;
+    margin: auto;
+        }
+        ul {
+            margin-top: 20px;
+        }
+            table {
+             font-family: 'Avenir';
+                margin: auto;
+                width: 70%;
+                margin-top: 20px;
+                font-size: 1.4em;
+            th {
+                background-color: @blue;
+                color: white;
+                text-transform: capitalize;
+            }
+            .azul {
+               background-color: transparent;
+                color: white;
+                
+            }
+            .amarillo {
+                 background-color: @yellow;
+                color: @blue;
+            }
+            .bold {
+               
+                font-weight: bold;
+            }
+        }
+    
+    }
+    #contacto {
+          background: url(../img/academia/contacto.png) no-repeat center;
+        h2 {
+            color: white;
+        }
+        .col {
+                text-align: center;
+        }
+        .con1 {
+           margin-top: 97px;
+        }
+        form {
+            margin-top: 240px;
+             font-family: 'Avenir';
+        }
+          .btn-new{
+               float: right;
+        background-color: @blue;
+        color: @yellow;
+            box-shadow: -8px 7px 5px black;
+        }
+        
+        &:hover{
+                   box-shadow: -8px 7px 5px black;
+           
+            color: @yellow;
+        }
+    }
 }
 
 @import "responsive";

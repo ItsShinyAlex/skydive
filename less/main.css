@@ -1564,12 +1564,14 @@ article.selected {
 .curso .template-section h2 .azul {
   color: #003463;
 }
-.curso .template-section p {
+.curso .template-section p,
+.curso .template-section ul {
   font-family: 'Avenir';
   color: white;
   font-size: 1.4em;
 }
-.curso .template-section p .azul {
+.curso .template-section p .azul,
+.curso .template-section ul .azul {
   color: #003463;
 }
 .curso .template-section h3 {
@@ -1634,7 +1636,47 @@ article.selected {
   color: white;
 }
 .curso #niveles .col2 {
-  width: 25%;
+  width: 20%;
+  border: 3px solid white;
+  border-radius: 8px;
+  margin-top: 10px;
+  margin-left: 30px;
+  margin-right: 25px;
+  background-color: #fbdb00;
+}
+.curso #niveles h3 {
+  text-align: center;
+  color: #003463;
+  font-weight: bold;
+}
+.curso #niveles hr {
+  border: 2px solid #003463;
+}
+.curso #niveles p {
+  color: #003463;
+  text-align: center;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+.curso #niveles .programa {
+  background-color: #ff0000;
+}
+.curso #niveles .programa p {
+  margin-top: 10px;
+  font-family: 'BigNoodleTitling';
+  color: white;
+  font-size: 30px;
+  font-weight: normal;
+  line-height: 1;
+}
+.curso #niveles .programa p span {
+  font-weight: bold;
+  font-size: 65px;
+  display: block;
+}
+.curso #niveles .programa p.mayores {
+  color: #fbdb00;
+  font-size: 25px;
 }
 .curso #precio {
   text-align: center;
@@ -1648,6 +1690,7 @@ article.selected {
   color: #003463;
 }
 .curso #precio table {
+  font-size: 1.4em;
   font-family: 'Avenir';
 }
 .curso #precio table th {
@@ -1677,9 +1720,189 @@ article.selected {
   box-shadow: -8px 7px 5px black;
   color: #fbdb00;
 }
+.curso #precio p {
+  max-width: 700px;
+  position: relative;
+  display: block;
+  text-align: center;
+  margin: auto;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  color: #003463;
+}
+.curso #iniciar {
+  background: url(../img/academia/iniciar.png) no-repeat center;
+  padding: 250px 0px;
+}
+.curso #iniciar h2 {
+  color: #fbdb00;
+  margin-top: -211px;
+}
+.curso #iniciar p {
+  display: block;
+  max-width: 600px;
+  margin: auto;
+  text-align: center;
+  margin-bottom: 20px;
+}
+.curso #horario {
+  background: url(../img/academia/horario.png) no-repeat center;
+}
+.curso #horario h2 {
+  color: #003463;
+}
+.curso #horario p {
+  color: #003463;
+}
+.curso #horario img {
+  width: 100%;
+}
+.curso #horario .container {
+  max-width: 900px;
+}
+.curso #contamos {
+  background-color: #003463;
+  text-align: center;
+}
+.curso #contamos .col2 {
+  width: 25%;
+}
+.curso #contamos h2 {
+  color: #fbdb00;
+}
+.curso #aviones {
+  background: url(../img/academia/aviones.png) no-repeat center;
+  text-align: center;
+}
+.curso #aviones h2 {
+  color: #003463;
+}
+.curso #aviones p {
+  color: #003463;
+  display: block;
+  max-width: 700px;
+  margin: auto;
+}
+.curso #faq-arrive {
+  position: relative;
+  z-index: 2;
+  top: -240px;
+  margin-bottom: -240px;
+  min-height: 1100px;
+  background-size: cover;
+}
+.curso #faq-arrive h2 {
+  color: #003463;
+}
+.curso #faq-arrive .container {
+  position: relative;
+  top: 360px;
+}
+.curso #faq-arrive .bdark {
+  background-color: #002042;
+}
+.curso #faq-arrive .bnavy {
+  background-color: #1a365b;
+}
+.curso #faq-arrive article {
+  border: solid white 0px !important;
+}
+.curso #faq-arrive article p {
+  font-size: 18px;
+  line-height: 120%;
+  color: #003463;
+}
+.curso #faq-arrive .content {
+  background-color: #f5f5f6;
+}
+.curso #faq-arrive h4 {
+  font-family: 'BigNoodleTitling';
+  font-size: 33px;
+}
+.curso #faq-arrive .effect:before,
+.curso #faq-arrive .effect:after {
+  color: #ffae00 !important;
+  width: 25px;
+  font-weight: 600;
+  height: 6px;
+  background: #ffae00;
+}
+.curso #faq-arrive .btn-new {
+  margin: 0 0 60px 3%;
+  box-shadow: -5px 6px 0px black;
+}
+.curso #faq-arrive .btn-new:hover {
+  background-color: #f0682f;
+  color: #f5f5f6;
+}
+.curso #experimentados {
+  background-color: #003463;
+}
+.curso #experimentados h2 {
+  color: #fbdb00;
+}
+.curso #experimentados p,
+.curso #experimentados ul {
+  display: block;
+  max-width: 800px;
+  margin: auto;
+}
+.curso #experimentados ul {
+  margin-top: 20px;
+}
+.curso #experimentados table {
+  font-family: 'Avenir';
+  margin: auto;
+  width: 70%;
+  margin-top: 20px;
+  font-size: 1.4em;
+}
+.curso #experimentados table th {
+  background-color: #003463;
+  color: white;
+  text-transform: capitalize;
+}
+.curso #experimentados table .azul {
+  background-color: transparent;
+  color: white;
+}
+.curso #experimentados table .amarillo {
+  background-color: #fbdb00;
+  color: #003463;
+}
+.curso #experimentados table .bold {
+  font-weight: bold;
+}
+.curso #contacto {
+  background: url(../img/academia/contacto.png) no-repeat center;
+}
+.curso #contacto h2 {
+  color: white;
+}
+.curso #contacto .col {
+  text-align: center;
+}
+.curso #contacto .con1 {
+  margin-top: 97px;
+}
+.curso #contacto form {
+  margin-top: 240px;
+  font-family: 'Avenir';
+}
+.curso #contacto .btn-new {
+  float: right;
+  background-color: #003463;
+  color: #fbdb00;
+  box-shadow: -8px 7px 5px black;
+}
+.curso #contacto:hover {
+  box-shadow: -8px 7px 5px black;
+  color: #fbdb00;
+}
 @media screen and (max-width: 1400px) {
   #precio {
     background: url(../img/academia/precio2.png) no-repeat;
+    margin-bottom: -150px;
   }
 }
 @media screen and (min-width: 1400px) {
