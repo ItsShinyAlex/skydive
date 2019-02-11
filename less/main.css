@@ -1917,6 +1917,43 @@ article.selected {
   box-shadow: -8px 7px 5px black;
   color: #fbdb00;
 }
+.curso #contacto-footer {
+  padding: 110px;
+  background: url(../img/footer/back-footer.jpg) center no-repeat;
+  background-size: cover;
+  background-color: #1a365b;
+  background-attachment: fixed;
+}
+.curso #contacto-footer a {
+  color: white;
+}
+.curso #contacto-footer a:hover {
+  color: #f0682f;
+}
+.curso #contacto-footer i {
+  color: yellow;
+  font-size: 17px;
+}
+.curso #contacto-footer .col {
+  padding: 20px 100px;
+  width: 50%;
+}
+.curso #contacto-footer .col p {
+  font-family: 'Avenir';
+  color: white;
+  padding-right: 30%;
+  font-size: 18px;
+  line-height: 125%;
+}
+.curso #contacto-footer .smallc {
+  width: 7%;
+  padding: 0;
+  padding-top: 5px;
+}
+.curso #contacto-footer .bigc {
+  padding: 0;
+  width: 92%;
+}
 @media screen and (max-width: 1400px) and (min-width: 750px) {
   #precio {
     background: url(../img/academia/precio2.png) no-repeat;
@@ -2044,6 +2081,34 @@ article.selected {
   .curso #contacto .con1,
   .curso #contacto form {
     margin-top: auto;
+  }
+  .curso #contacto-footer {
+    padding: 40px 20px;
+    background: url(../img/footer/res-footerback.jpg) center no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+  }
+  .curso #contacto-footer i {
+    color: yellow;
+    font-size: 17px;
+  }
+  .curso #contacto-footer .col {
+    padding: 20px 0;
+  }
+  .curso #contacto-footer .col p {
+    padding-right: 10%;
+    font-size: 18px;
+    line-height: 125%;
+    text-align: left;
+  }
+  .curso #contacto-footer .smallc {
+    width: 10% !important;
+    padding: 0;
+    padding-top: 5px;
+  }
+  .curso #contacto-footer .bigc {
+    padding: 0;
+    width: 90% !important;
   }
 }
 @media screen and (max-width: 650px) {

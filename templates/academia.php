@@ -515,7 +515,7 @@ a nivel mendial ¡Y los tenemos aquí para ti!</p>
 
 
 
-</div>
+
 
 
 
@@ -692,7 +692,11 @@ a nivel mendial ¡Y los tenemos aquí para ti!</p>
     });
 </script>
 
-<?php 
 
+
+
+<?php 
+	include 'shiny-footer.php';
     get_footer();
 ?>
+</div>
