@@ -2005,6 +2005,9 @@ article.selected {
     margin-top: auto;
     padding: 89px 0px;
   }
+  .curso #iniciar h2 {
+    margin-top: auto;
+  }
   .curso #horario {
     background: url(../img/academia/horario.png) repeat center;
   }
