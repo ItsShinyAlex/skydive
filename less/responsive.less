@@ -1,16 +1,175 @@
 // main: main.less
-@media screen and (max-width: 1400px) {
+
+@media screen and (max-width: 1400px) and (min-width: 750px) {
     #precio {
  background: url(../img/academia/precio2.png) no-repeat;
        margin-bottom: -150px;
     }
 }
-@media screen and (min-width: 1400px) {
+@mediascreen and (min-width: 1400px) {
+ 
     #precio {
  background: url(../img/academia/precio.png) no-repeat;
          
     }
+    
 }
+
+@media screen and (max-width: 750px) {
+
+    
+    .curso{
+            .grid {
+        .col {
+            width: 100%;
+        }
+        .col2 {
+            width: 100%;
+                padding-left: 0px; 
+            padding-right: 0px;
+        }
+        
+        
+        &.invertido{
+            flex-wrap: wrap-reverse;
+        } 
+    }
+    
+.template-section a.btn {
+    margin: 0 auto;
+    display: block;
+}
+
+
+    .template-section {
+        h2 {
+            font-size: 56px;
+        }
+        p,ul {
+            font-size: 18px;
+        }
+        h3 {
+            font-size: 25px;
+        }
+        .col {
+            min-height: auto;
+            padding: 20px;
+        }
+        .col3 {
+    width: 100%;
+    }
+        
+    }
+        #slider_academia {
+    margin-top: 0px;
+    padding: inherit;
+    background: url(../img/academia/slider_responsive.png) no-repeat center;
+     .btn-new {
+    /* margin-top: 30px; */
+       margin-bottom: 278px;
+}
+           
+        
+        }
+        
+        #niveles{
+            .col2 {
+                margin-top: 30px;
+    width: 100%;
+        }
+            .viento {
+    max-width: 350px;
+        }
+        }
+        
+        #precio {
+                margin-top: auto;
+            margin-left: auto;
+            background-color: @yellow;
+              .computadora {
+            display: none;
+        }
+            h2 {
+    margin-top: -98px;
+            }
+        .movil {
+            
+            display: inherit;
+            .curso {
+                    text-align: right;
+            }
+            tbody {
+                    display: block;
+      
+            }
+            table th {
+                font-size: inherit;
+            }
+        }
+        }
+        
+        #iniciar {
+                background: url(../img/academia/iniciar_responsive.png) no-repeat center;
+                margin-top: auto;
+       padding: 89px 0px;
+        }
+        #horario {
+            background: url(../img/academia/horario.png) repeat center;
+            .col {
+    width: 100%;
+            }
+            p {
+   
+    max-width: 300px;
+    display: block;
+    margin: auto;
+    text-align: justify;
+}
+        }
+        #contamos{
+        .col2 {
+    width: 100%;
+}
+        }
+        
+         #aviones {
+         background: url(../img/academia/aviones_responsive.png) no-repeat center;
+                 padding: 150px 0px;
+        }
+        #experimentados {
+  
+    margin-top: 180px;
+            p, ul {
+                 max-width: 300px;
+            }
+}
+        
+        #contacto {
+                padding: 38px 0px;
+             background: url(../img/academia/contacto_responsive.png) no-repeat center;
+    background-color: #f5ad55;
+            
+   
+            .col {
+                width: 100%;
+                 text-align: left;
+            }
+            .con1 {
+    margin-top: auto;
+            }
+            form {
+                display: none;
+            }
+            .curso {
+                max-width: 200px;
+            }
+}
+        
+
+    }
+}
+
+
 
 @media screen and (max-width:650px){
        .onlymov{

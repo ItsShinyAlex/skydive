@@ -1644,10 +1644,19 @@ article.selected {
   margin-right: 25px;
   background-color: #fbdb00;
 }
+.curso #niveles .viento {
+  max-width: 900px;
+  display: block;
+  margin: auto;
+}
 .curso #niveles h3 {
   text-align: center;
   color: #003463;
   font-weight: bold;
+}
+.curso #niveles h3.incluye {
+  margin-top: 20px;
+  color: #f5ab00;
 }
 .curso #niveles hr {
   border: 2px solid #003463;
@@ -1657,6 +1666,9 @@ article.selected {
   text-align: center;
   margin-left: 10px;
   margin-right: 10px;
+}
+.curso #niveles p.practicas {
+  color: white;
 }
 .curso #niveles .programa {
   background-color: #ff0000;
@@ -1710,6 +1722,12 @@ article.selected {
   background-color: #cd1719;
   color: white;
   font-weight: bold;
+}
+.curso #precio .computadora {
+  display: inherit;
+}
+.curso #precio .movil {
+  display: none;
 }
 .curso #precio .btn-new {
   background-color: #003463;
@@ -1899,7 +1917,7 @@ article.selected {
   box-shadow: -8px 7px 5px black;
   color: #fbdb00;
 }
-@media screen and (max-width: 1400px) {
+@media screen and (max-width: 1400px) and (min-width: 750px) {
   #precio {
     background: url(../img/academia/precio2.png) no-repeat;
     margin-bottom: -150px;
@@ -1908,6 +1926,128 @@ article.selected {
 @media screen and (min-width: 1400px) {
   #precio {
     background: url(../img/academia/precio.png) no-repeat;
+  }
+}
+@media screen and (max-width: 750px) {
+  .curso .grid .col {
+    width: 100%;
+  }
+  .curso .grid .col2 {
+    width: 100%;
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+  .curso .grid.invertido {
+    flex-wrap: wrap-reverse;
+  }
+  .curso .template-section a.btn {
+    margin: 0 auto;
+    display: block;
+  }
+  .curso .template-section h2 {
+    font-size: 56px;
+  }
+  .curso .template-section p,
+  .curso .template-section ul {
+    font-size: 18px;
+  }
+  .curso .template-section h3 {
+    font-size: 25px;
+  }
+  .curso .template-section .col {
+    min-height: auto;
+    padding: 20px;
+  }
+  .curso .template-section .col3 {
+    width: 100%;
+  }
+  .curso #slider_academia {
+    margin-top: 0px;
+    padding: inherit;
+    background: url(../img/academia/slider_responsive.png) no-repeat center;
+  }
+  .curso #slider_academia .btn-new {
+    /* margin-top: 30px; */
+    margin-bottom: 278px;
+  }
+  .curso #niveles .col2 {
+    margin-top: 30px;
+    width: 100%;
+  }
+  .curso #niveles .viento {
+    max-width: 350px;
+  }
+  .curso #precio {
+    margin-top: auto;
+    margin-left: auto;
+    background-color: #fbdb00;
+  }
+  .curso #precio .computadora {
+    display: none;
+  }
+  .curso #precio h2 {
+    margin-top: -98px;
+  }
+  .curso #precio .movil {
+    display: inherit;
+  }
+  .curso #precio .movil .curso {
+    text-align: right;
+  }
+  .curso #precio .movil tbody {
+    display: block;
+  }
+  .curso #precio .movil table th {
+    font-size: inherit;
+  }
+  .curso #iniciar {
+    background: url(../img/academia/iniciar_responsive.png) no-repeat center;
+    margin-top: auto;
+    padding: 89px 0px;
+  }
+  .curso #horario {
+    background: url(../img/academia/horario.png) repeat center;
+  }
+  .curso #horario .col {
+    width: 100%;
+  }
+  .curso #horario p {
+    max-width: 300px;
+    display: block;
+    margin: auto;
+    text-align: justify;
+  }
+  .curso #contamos .col2 {
+    width: 100%;
+  }
+  .curso #aviones {
+    background: url(../img/academia/aviones_responsive.png) no-repeat center;
+    padding: 150px 0px;
+  }
+  .curso #experimentados {
+    margin-top: 180px;
+  }
+  .curso #experimentados p,
+  .curso #experimentados ul {
+    max-width: 300px;
+  }
+  .curso #contacto {
+    padding: 38px 0px;
+    background: url(../img/academia/contacto_responsive.png) no-repeat center;
+    background-color: #f5ad55;
+  }
+  .curso #contacto .col {
+    width: 100%;
+    text-align: left;
+  }
+  .curso #contacto .con1 {
+    margin-top: auto;
+  }
+  .curso #contacto form {
+    display: none;
+  }
+  .curso #contacto .curso {
+    max-width: 200px;
   }
 }
 @media screen and (max-width: 650px) {

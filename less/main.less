@@ -5,6 +5,8 @@
 @gold: #ffae00;
 @yellow: #fbdb00;
 @yellow2: #f5ac0e;
+@yellow3: #f5ab00;
+@yellow4: #fbd000;
 @blue: #003463;
 @red: #cd1719;
 @red2: #ff0000;
@@ -2232,10 +2234,19 @@ h2{
             background-color: @yellow;
             
         }
+        .viento {
+            max-width: 900px;
+            display: block;
+            margin: auto;
+        }
         h3 {
             text-align: center;
             color: @blue;
             font-weight: bold;
+            &.incluye {
+                margin-top: 20px;
+                color: @yellow3;
+            }
         }
         hr {
                 border: 2px solid @blue;
@@ -2245,6 +2256,9 @@ h2{
             text-align: center;
                 margin-left: 10px;
     margin-right: 10px;
+            &.practicas {
+                color: white;
+            }
             
         }
         .programa {
@@ -2280,6 +2294,7 @@ h2{
             margin-top: 317px;
             color: @blue;
         }
+        
         table {
             font-size: 1.4em;
              font-family: 'Avenir';
@@ -2302,6 +2317,12 @@ h2{
                 color: white;
                 font-weight: bold;
             }
+        }
+        .computadora {
+            display: inherit;
+        }
+        .movil {
+            display: none;
         }
          .btn-new{
            

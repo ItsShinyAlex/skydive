@@ -64,15 +64,19 @@ y patrones de aterrizaje.</p>
     </div>
     
 </div>
-<h3>SE INCLUYEN PRÁCTICAS EN EL TUNEL DE VIENTO TORNADO.</h3>
-<p>Estas prácticas, además de aumentar tu seguridad y confianza en caída libre, te ayudan a progresar mucho más rápido en tu curso de paracaidismo. Aparte de ser una actividad divertida y única 
+<div class="viento">
+<h3 class="incluye">SE INCLUYEN PRÁCTICAS EN EL TUNEL DE VIENTO TORNADO.</h3>
+<p class="practicas">Estas prácticas, además de aumentar tu seguridad y confianza en caída libre, te ayudan a progresar mucho más rápido en tu curso de paracaidismo. Aparte de ser una actividad divertida y única 
 en México.</p>
+ </div>
+ 
  </div>
 </section>
 
 <section class="template-section" id="precio">
 <div class="container">
 <h2>PRECIO</h2>
+<div class="computadora">
 <table >
   <tr>
     <th>Salto / Nivel</th>
@@ -130,6 +134,163 @@ en México.</p>
   </tr>
   
 </table>
+</div>
+
+<div class="movil">
+<table >
+  <tr>
+    <th>Salto / Nivel</th>
+    <th>Cuerpo de Paracaidismo <br> Pagos Parciales</th>
+  </tr>
+  <tr class="amarillo">
+    <td>Teoría / Nivel 1</td>
+    <td>$3600</td>
+    
+  </tr>
+  <tr class="azul">
+    <td>Nivel 2</td>
+    <td>$3600</td>
+    
+  </tr>
+  <tr class="amarillo">
+    <td>Nivel 3</td>
+    <td>$3600</td>
+  
+  </tr>
+  <tr class="azul">
+    <td>Nivel 4</td>
+    <td>$3500</td>
+    
+  </tr>
+  <tr class="amarillo">
+    <td>Nivel 5</td>
+    <td>$3400</td>
+   
+  </tr>
+  <tr class="azul">
+    <td>Nivel 6</td>
+    <td>$3400</td>
+   
+  </tr>
+  <tr class="amarillo">
+    <td>Nivel 7</td>
+    <td>$3400</td>
+   
+  </tr>
+  <tr class="rojo">
+    <td class="curso">Precio Total del Curso</td>
+    <td>$24500</td>
+   
+  </tr>
+  
+</table>
+
+<table >
+  <tr>
+    <th>Salto / Nivel</th>
+    <th>Curso Intensivo <br> O pago de contado</th>
+  </tr>
+  <tr class="amarillo">
+    <td>Teoría / Nivel 1</td>
+  
+    <td>$3400</td>
+  
+  </tr>
+  <tr class="azul">
+    <td>Nivel 2</td>
+   
+    <td>$3400</td>
+  
+  </tr>
+  <tr class="amarillo">
+    <td>Nivel 3</td>
+   
+    <td>$3400</td>
+   
+  </tr>
+  <tr class="azul">
+    <td>Nivel 4</td>
+   
+    <td>$3400</td>
+   
+  </tr>
+  <tr class="amarillo">
+    <td>Nivel 5</td>
+   
+    <td>$3200</td>
+   
+  </tr>
+  <tr class="azul">
+    <td>Nivel 6</td>
+   
+    <td>$3100</td>
+  
+  </tr>
+  <tr class="amarillo">
+    <td>Nivel 7</td>
+   
+    <td>$3100</td>
+ 
+  </tr>
+  <tr class="rojo">
+    <td class="curso">Precio Total del Curso</td>
+   
+    <td>$23000</td>
+   
+  </tr>
+  
+</table>
+
+<table >
+  <tr>
+    <th >Salto / Nivel</th>
+   
+    <th>Cuerpo de Paracaidismo mujer</th>
+  </tr>
+  <tr class="amarillo">
+    <td>Teoría / Nivel 1</td>
+  
+    <td>$2900</td>
+  </tr>
+  <tr class="azul">
+    <td>Nivel 2</td>
+   
+    <td>$2900</td>
+  </tr>
+  <tr class="amarillo">
+    <td>Nivel 3</td>
+
+    <td>$2900</td>
+  </tr>
+  <tr class="azul">
+    <td>Nivel 4</td>
+  
+    <td>$2800</td>
+  </tr>
+  <tr class="amarillo">
+    <td>Nivel 5</td>
+
+    <td>$2800</td>
+  </tr>
+  <tr class="azul">
+    <td>Nivel 6</td>
+
+    <td>$2800</td>
+  </tr>
+  <tr class="amarillo">
+    <td>Nivel 7</td>
+ 
+    <td>$2800</td>
+  </tr>
+  <tr class="rojo">
+    <td class="curso">Precio Total del Curso</td>
+   
+    <td>$19900</td>
+  </tr>
+  
+</table>
+
+</div>
 <p>CURSO PARA MUJERES. Actualmente contamos con un descuento especial para chicas. La Academia de Paracaidismo, 
 en su visión por fomentar el deporte en las mujeres, decidió promover estos precios de promoción. Comunícate al 7771096727 para más información y agendar tu curso (WhatsApp).</p>
 <a href="#" class="btn-new " target="_blank" >¿A que se refiere, el curso intensivo?</a>
@@ -169,6 +330,7 @@ Domingo : Niveles 5, 6 y 7.
        <p>Sobre la certificación, tienes la opción de adquirir una licencia internacional tipo A, la cual está reconocida a nivel mundial. La Bitácora de salto la llevas a partir del primer NIVEL, y la licencia se otorga cuando cumples 25 saltos en total (contando los 7 del curso) demostrando ciertas habilidades. Toma en cuenta que el primer paso para ser paracaidista es terminar satisfactoriamente los 7 niveles del curso. </p>
     </div>
     </section>
+    
 <section class="template-section" id="contamos">
   <div class="container">
    <h2>ADEMÁS, CONTAMOS CON:</h2>
@@ -201,9 +363,6 @@ y un Super Twin Otter. Son lo más avanzado para el paracaidismo
 a nivel mendial ¡Y los tenemos aquí para ti!</p>
         </div>
     </section>
-
-
-
 
 <section class="template-section" id="faq-arrive">
 
@@ -334,13 +493,14 @@ a nivel mendial ¡Y los tenemos aquí para ti!</p>
        
         </div>
     </section>
+    
  <section class="template-section" id="contacto">
     <div class="container">
     <h2>¡Contáctanos hoy mismo para comenzar esta aventura!</h2>
     <div class="grid">
         <div class="col con1">
         <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/academia/telefono.png" alt="telefono">
-        <p> Solo curso de paracaidismo <br>
+        <p class="curso"> Solo curso de paracaidismo <br>
 (+52) 777 109 6727<br> (WHATSAPP)</p>
        <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/academia/E-mail.png" alt="E-mail">
         <p> skydivemexico@gmail.com</p>
