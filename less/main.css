@@ -2035,22 +2035,15 @@ article.selected {
     max-width: 300px;
   }
   .curso #contacto {
-    padding: 38px 0px;
-    background: url(../img/academia/contacto_responsive.png) no-repeat center;
+    background: none;
     background-color: #f5ad55;
   }
   .curso #contacto .col {
     width: 100%;
-    text-align: left;
   }
-  .curso #contacto .con1 {
-    margin-top: auto;
-  }
+  .curso #contacto .con1,
   .curso #contacto form {
-    display: none;
-  }
-  .curso #contacto .curso {
-    max-width: 200px;
+    margin-top: auto;
   }
 }
 @media screen and (max-width: 650px) {
